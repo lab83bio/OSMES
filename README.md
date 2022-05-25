@@ -19,9 +19,8 @@ cp RevDockPLP/ade.py ADFRsuite_x86_64Linux_1.0/ADFRsuite-1.0/CCSBpckgs/ADFR/bin
 ```
 ### Create and activate conda envinroment
 ```{bash}
-conda create --name revdockplp_colab mamba -y
+conda env create -n revdockplp_colab -f RevDockPLP/revdockplp_colab.yml
 conda activate revdockplp_colab
-mamba env update -n revdockplp_colab -f RevDockPLP/revdockplp_colab.yml
 ```
 ### Start jupyter-notebook runtime for Google Colab
 ```{bash}
