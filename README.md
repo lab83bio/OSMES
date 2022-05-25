@@ -23,12 +23,12 @@ conda create --name revdockplp_colab mamba -y
 conda activate revdockplp_colab
 mamba env update -n revdockplp_colab -f RevDockPLP/revdockplp_colab.yml
 ```
-### Start jupyter-notebook for Google Colab
+### Start jupyter-notebook runtime for Google Colab
 ```{bash}
 pip install jupyter_http_over_ws
 jupyter serverextension enable --py jupyter_http_over_ws
 
-jupyter notebook \
+jupyter-notebook \
   --NotebookApp.allow_origin='https://colab.research.google.com' \
   --port=8888 \
   --NotebookApp.port_retries=0
