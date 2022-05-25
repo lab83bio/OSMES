@@ -11,7 +11,7 @@ git clone https://github.com/lab83bio/RevDockPLP.git
 ```
 ### Installing `ADFRsuite_x86_64Linux_1.096`
 ```{bash}
-wget -q https://ccsb.scripps.edu/adfr/download/1038/ -O 'adfr.tar.gz'
+wget https://ccsb.scripps.edu/adfr/download/1038/ -O 'adfr.tar.gz'
 tar zxvf adfr.tar.gz 
 cp RevDockPLP/install.sh ADFRsuite_x86_64Linux_1.0/
 cd ADFRsuite_x86_64Linux_1.0/; chmod +x install.sh; yes|./install.sh -d ADFRsuite-1.0 -c 0; cd ..
