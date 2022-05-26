@@ -24,7 +24,6 @@ conda activate revdockplp_colab
 ```
 ### Start jupyter-notebook runtime for Google Colab
 ```{bash}
-pip install jupyter_http_over_ws
 jupyter serverextension enable --py jupyter_http_over_ws
 
 jupyter-notebook \
