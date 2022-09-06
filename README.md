@@ -34,5 +34,5 @@ jupyter-notebook \
   --port=8888 \
   --NotebookApp.port_retries=0
 ```
-## Google Colab utilizaiton
+## Google Colab utilization
 https://colab.research.google.com/drive/1lF4ezjLnJ16w6RrC5R_5ZV0P5g9omAtd#scrollTo=AfUiKQWES7V8
