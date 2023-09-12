@@ -1,16 +1,15 @@
 # RevDockPLP
-Pipeline in python to perform a reverse docking screening with PLPomes and external aldimine as ligands
+Pipeline in python to perform a One Substrate-Many Enzymes Screening of substrates bound as external aldimine towards PLPomes
 
-## Requirements
+## Installation 
+### Requirements
 Any version of micromamba or mamba https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html
-
-## Local utilizaiton 
-### Cloning git repositories
+### Cloning git repository
 ```bash
 git clone https://github.com/lab83bio/OSMES.git
 cd OSMES
 ```
-### Installing `ADFRsuite_x86_64Linux_1.096`
+### Installation of `ADFRsuite_x86_64Linux_1.096`
 ```bash
 wget https://ccsb.scripps.edu/adfr/download/1038/ -O 'adfr.tar.gz'
 tar zxvf adfr.tar.gz 
@@ -24,11 +23,17 @@ cd ..
 micromamba create -f OSMES_explicit_env.txt -n OSMES -y
 micromamba activate OSMES
 ```
-## Creating input files
-To create input files such as ligand or enzyme set, please use the Colab Notebook below:
-https://colab.research.google.com/drive/1lF4ezjLnJ16w6RrC5R_5ZV0P5g9omAtd#scrollTo=AfUiKQWES7V8
+## Usage
+### Make input files
+OSMES pipleine required the following input files:
+- `substrate.pdbqt` for ADFR
+- `substrate.txt` for calculation of the catalytic favourable conformations (CFC)
+- Enzyme set in pdb format
+- `coords.tsv` with the specificied coordinates of the gridbox center for each active site
+To produce the indicated input files, please use the Colab Notebook below and follow the instruction of the cells
+https://colab.research.google.com/drive/1lF4ezjLnJ16w6RrC5R_5ZV0P5g9omAtd#scrollTo=AfUiKQWES7V8``
 
-## Usage of OSMES
+### Usage of OSMES
 ```bash
 chmod +x OSMES_submit.py
 OSMES_submit.py OSMES.config
