@@ -4,6 +4,10 @@ Pipeline in python to perform a One Substrate-Many Enzymes Screening (OSMES) of 
 ## Installation 
 ### Requirements
 Any version of [mamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html)
+
+<br><br>
+![osmes_logo](./osmes_logo.png)
+<br>
 ### Cloning git repository
 ```bash
 git clone https://github.com/lab83bio/OSMES.git
