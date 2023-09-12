@@ -10,6 +10,15 @@ try:
     locals().update(dict(config.items('GPF')))
     locals().update(dict(config.items('DPF')))
     locals().update(dict(config.items('OTHER')))
+    
+    ### ABSOLUTE PATHS
+    adfr_path = os.path.abspath(adfr_path)
+    Ligand = os.path.abspath(Ligand)
+    reactions_file = os.path.abspath(reactions_file)
+    receptor_dir = os.path.abspath(receptor_dir)
+    coord_file = os.path.abspath(coord_file)
+    rec_files_dir = os.path.abspath(receptor_dir)
+    
 except:
     print(
 '''
@@ -25,7 +34,7 @@ Ligand = /hpc/home/marco.malatesta/Rev_Docking/Docking_data/ORN_PLP.pdbqt       
 reactions_file = 'HTL_PLP.txt'
 receptor_dir = /hpc/archive/G_BIOSCIENZE/marco.malatesta/PLP_enzymes/Mus_musculus/AF_db/ # path to receptor pdb files
 coord_file = /hpc/archive/G_BIOSCIENZE/marco.malatesta/PLP_enzymes/Mus_musculus/AF_db/Mus_musculus_coord.csv  outdir = OMSES_results # directory of results
-rec_files_dir = ./Homo_sapiens/HTML_PLP_Human_flex_new_1
+rec_files_dir = ''
 
 [GPF]
 npts=20 20 20
