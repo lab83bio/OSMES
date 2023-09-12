@@ -25,7 +25,7 @@ Ligand = /hpc/home/marco.malatesta/Rev_Docking/Docking_data/ORN_PLP.pdbqt       
 reactions_file = 'HTL_PLP.txt'
 receptor_dir = /hpc/archive/G_BIOSCIENZE/marco.malatesta/PLP_enzymes/Mus_musculus/AF_db/ # path to receptor pdb files
 coord_file = /hpc/archive/G_BIOSCIENZE/marco.malatesta/PLP_enzymes/Mus_musculus/AF_db/Mus_musculus_coord.csv  outdir = OMSES_results # directory of results
-rec_files_dir = ''
+outdir = test/OSMES_results # directory of results
 
 [GPF]
 npts=20 20 20
@@ -54,6 +54,7 @@ reactions_file = os.path.abspath(reactions_file)
 receptor_dir = os.path.abspath(receptor_dir)
 coord_file = os.path.abspath(coord_file)
 rec_files_dir = os.path.abspath(receptor_dir)
+outdir = os.path.abspath(outdir)
 
 from OSMES import *
 warnings.filterwarnings('ignore')
