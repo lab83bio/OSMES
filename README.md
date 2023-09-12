@@ -1,11 +1,8 @@
 # OSMES
-
+Pipeline in python to perform a One Substrate-Many Enzymes Screening (OSMES) of substrates bound as external aldimine towards PLPomes
 <br>
 ![OSMES](./OSMES.png)
 <br>
-
-Pipeline in python to perform a One Substrate-Many Enzymes Screening (OSMES) of substrates bound as external aldimine towards PLPomes
-
 ## Installation 
 ### Requirements
 Any version of [mamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html)
