@@ -1,9 +1,9 @@
-# RevDockPLP
-Pipeline in python to perform a One Substrate-Many Enzymes Screening of substrates bound as external aldimine towards PLPomes
+# OSMES
+Pipeline in python to perform a One Substrate-Many Enzymes Screening (OSMES) of substrates bound as external aldimine towards PLPomes
 
 ## Installation 
 ### Requirements
-Any version of micromamba or mamba https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html
+Any version of [mamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html)
 ### Cloning git repository
 ```bash
 git clone https://github.com/lab83bio/OSMES.git
@@ -30,12 +30,14 @@ OSMES pipleine required the following input files:
 - `substrate.txt` for calculation of the catalytic favourable conformations (CFC)
 - Enzyme set in pdb format
 - `coords.tsv` with the specificied coordinates of the gridbox center for each active site
-To produce the indicated input files, please use the Colab Notebook below and follow the instruction of the cells
-https://colab.research.google.com/drive/1lF4ezjLnJ16w6RrC5R_5ZV0P5g9omAtd#scrollTo=AfUiKQWES7V8``
-
+To produce the indicated input files, please use the [*OSMES.ipynb*](https://colab.research.google.com/drive/1lF4ezjLnJ16w6RrC5R_5ZV0P5g9omAtd#scrollTo=AfUiKQWES7V8) Colab Notebook and follow the instruction of the cells.
 ### Usage of OSMES
+make executable the file
 ```bash
 chmod +x OSMES_submit.py
+```
+and then run the pipeline with the configuration file for [test](https://github.com/lab83bio/OSMES/tree/main/test)
+```bash
 OSMES_submit.py OSMES.config
 ```
 where in OSMES config are defined all the path and the parameters required by the analysis, an example below:
@@ -58,7 +60,7 @@ maxEvals = 5000000
 nbRuns = 20
 maxCores = 0 # Set 0 to use all cores available
 clusteringRMSDCutoff = 3
-popSize = 300 
+popSize = 300
 
 [OTHER]
 imgFormat = pdf
