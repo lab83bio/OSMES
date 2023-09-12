@@ -7,9 +7,8 @@ Any version of micromamba or mamba https://mamba.readthedocs.io/en/latest/user_g
 ## Local utilizaiton 
 ### Cloning git repositories
 ```bash
-mkdir OSMES
+git clone https://github.com/lab83bio/OSMES.git
 cd OSMES
-git clone https://github.com/lab83bio/RevDockPLP.git
 ```
 ### Installing `ADFRsuite_x86_64Linux_1.096`
 ```bash
