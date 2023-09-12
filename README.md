@@ -1,13 +1,13 @@
 # OSMES
+<br>
+![OSMES](./OSMES.png)
+<br>
 Pipeline in python to perform a One Substrate-Many Enzymes Screening (OSMES) of substrates bound as external aldimine towards PLPomes
 
 ## Installation 
 ### Requirements
 Any version of [mamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html)
 
-<br><br>
-![OSMES](./OSMES.png)
-<br>
 ### Cloning git repository
 ```bash
 git clone https://github.com/lab83bio/OSMES.git
