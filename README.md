@@ -29,7 +29,8 @@ OSMES pipleine required the following input files:
 - `substrate.pdbqt` for ADFR
 - `substrate.txt` for calculation of the catalytic favourable conformations (CFC)
 - Enzyme set in pdb format
-- `coords.tsv` with the specificied coordinates of the gridbox center for each active site
+- `coords.tsv` with the specificied coordinates of the gridbox center for each active site.
+  
 To produce the indicated input files, please use the [*OSMES.ipynb*](https://colab.research.google.com/drive/1lF4ezjLnJ16w6RrC5R_5ZV0P5g9omAtd#scrollTo=AfUiKQWES7V8) Colab Notebook and follow the instruction of the cells.
 ### Usage of OSMES
 make executable the file
