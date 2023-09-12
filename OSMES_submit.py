@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import configparser, sys
+import configparser, sys, os
 
 #####    config parser    ####
 config = configparser.ConfigParser(inline_comment_prefixes="#")
@@ -9,16 +9,7 @@ try:
     locals().update(dict(config.items('PATHS')))
     locals().update(dict(config.items('GPF')))
     locals().update(dict(config.items('DPF')))
-    locals().update(dict(config.items('OTHER')))
-    
-    ### ABSOLUTE PATHS
-    adfr_path = os.path.abspath(adfr_path)
-    Ligand = os.path.abspath(Ligand)
-    reactions_file = os.path.abspath(reactions_file)
-    receptor_dir = os.path.abspath(receptor_dir)
-    coord_file = os.path.abspath(coord_file)
-    rec_files_dir = os.path.abspath(receptor_dir)
-    
+    locals().update(dict(config.items('OTHER')))    
 except:
     print(
 '''
@@ -55,6 +46,14 @@ lig_res = 'HTL'
 '''
     )
     sys.exit(1)
+
+### ABSOLUTE PATHS
+adfr_path = os.path.abspath(adfr_path)
+Ligand = os.path.abspath(Ligand)
+reactions_file = os.path.abspath(reactions_file)
+receptor_dir = os.path.abspath(receptor_dir)
+coord_file = os.path.abspath(coord_file)
+rec_files_dir = os.path.abspath(receptor_dir)
 
 from OSMES import *
 warnings.filterwarnings('ignore')
