@@ -18,9 +18,6 @@ cd ADFRsuite_x86_64Linux_1.0/
 chmod +x install.sh
 yes|bash install.sh -d ../ADFRsuite-1.0 -c 0 &>../ADFR_install.log
 cd ..
-
-
-cp RevDockPLP/ade.py ADFRsuite_x86_64Linux_1.0/ADFRsuite-1.0/CCSBpckgs/ADFR/bin
 ```
 ### Create and activate mamba envinroment
 ```bash
