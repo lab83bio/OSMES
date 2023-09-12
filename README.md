@@ -14,7 +14,12 @@ cd OSMES
 ```bash
 wget https://ccsb.scripps.edu/adfr/download/1038/ -O 'adfr.tar.gz'
 tar zxvf adfr.tar.gz 
-cd ADFRsuite_x86_64Linux_1.0/; chmod +x install.sh; yes|./install.sh -d ../ADFRsuite-1.0 -c 0 &>../ADFR_install.log
+cd ADFRsuite_x86_64Linux_1.0/
+chmod +x install.sh
+yes|./install.sh -d ../ADFRsuite-1.0 -c 0 &>../ADFR_install.log
+cd ..
+
+
 cp RevDockPLP/ade.py ADFRsuite_x86_64Linux_1.0/ADFRsuite-1.0/CCSBpckgs/ADFR/bin
 ```
 ### Create and activate mamba envinroment
@@ -34,7 +39,7 @@ where in OSMES config are defined all the path and the parameters required by th
 ```python
 [PATHS]
 # Specific input/output files
-adfr_path = ../ADFRsuite-1.0/bin
+adfr_path = ADFRsuite-1.0/bin
 Ligand = test/HTL_PLP.pdbqt # substrate file
 reactions_file = test/HTL_PLP.txt # file with the atoms for the catalyitic favourable conformations and the gridbox sizes
 receptor_dir = test/Mus_musculus/ # path to enzyme pdb files
