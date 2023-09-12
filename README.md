@@ -16,7 +16,7 @@ wget https://ccsb.scripps.edu/adfr/download/1038/ -O 'adfr.tar.gz'
 tar zxvf adfr.tar.gz 
 cd ADFRsuite_x86_64Linux_1.0/
 chmod +x install.sh
-yes|./install.sh -d ../ADFRsuite-1.0 -c 0 &>../ADFR_install.log
+source install.sh -d ../ADFRsuite-1.0 -c 0 &>../ADFR_install.log
 cd ..
 
 
