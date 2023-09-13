@@ -1,7 +1,7 @@
 # OSMES
 Pipeline in python to perform a One Substrate-Many Enzymes Screening (OSMES) of substrates bound as external aldimine towards PLPomes
 <br><br>
-![OSMES](./OSMES.png)
+![OSMES_H](./OSMES_H.png)
 <br>
 ## Installation 
 ### Requirements
