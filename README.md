@@ -77,4 +77,5 @@ popSize = 300
 imgFormat = pdf
 flex_lysine = True # keep catalytic lysine as flexible receptor.
 ```
-Expected output for the test set is in [test_output] directeory
+Expected output for the test set is in [test/OSMES_results](https://github.com/lab83bio/OSMES/tree/main/test/OSMES_results) directeory
+Expected runtime ~30 min 
