@@ -5,6 +5,9 @@ Pipeline in python to perform a One Substrate-Many Enzymes Screening (OSMES) of 
 <br>
 ## Installation 
 ### Requirements
+#### OS Requirements
+The package development version is tested on Linux operating systems.
+#### Software Requirements
 Any version of [mamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html)
 
 ### Cloning git repository
@@ -21,6 +24,7 @@ chmod +x install.sh
 yes|bash install.sh -d ../ADFRsuite-1.0 -c 0 &>../ADFR_install.log
 cd ..
 ```
+Installation time ~ 5 min
 ### Create and activate mamba envinroment
 ```bash
 micromamba create -f OSMES_explicit_env.txt -n OSMES -y
@@ -40,7 +44,7 @@ make executable the file
 ```bash
 chmod +x OSMES_submit.py
 ```
-and then run the pipeline with the configuration file for [test](https://github.com/lab83bio/OSMES/tree/main/test)
+and then run the pipeline with the configuration file using the [test dataset](https://github.com/lab83bio/OSMES/tree/main/test).
 ```bash
 OSMES_submit.py OSMES.config
 ```
