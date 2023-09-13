@@ -11,7 +11,7 @@ The package development version is tested on Linux operating systems.
 Any version of [micromamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html) >1.0 <br>
 Packages requirement are listed in the [env file](https://github.com/lab83bio/OSMES/blob/main/OSMES_explicit_env.txt)
 #### Hardware Requirements
->10 cores
+>10 cores, 
 >10 Gb RAM
 ### Cloning git repository
 ```bash
@@ -77,5 +77,5 @@ popSize = 300
 imgFormat = pdf
 flex_lysine = True # keep catalytic lysine as flexible receptor.
 ```
-Expected output for the test set is in [test/OSMES_results](https://github.com/lab83bio/OSMES/tree/main/test/OSMES_results) directeory
+Expected output for the test set is in [test/OSMES_results](https://github.com/lab83bio/OSMES/tree/main/test/OSMES_results) directeory<br>
 Expected runtime ~30 min 
