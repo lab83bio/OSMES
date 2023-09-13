@@ -8,8 +8,8 @@ Pipeline in python to perform One Substrate-Many Enzymes Screening (OSMES) of a 
 #### OS Requirements
 The package development version is tested on Linux operating systems.
 #### Software Requirements
-Any version of [mamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html)
-Packages requirement are in / 
+Any version of [micromamba] (https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html) >1.0 <br>
+Packages requirement are listed in the [env file] (https://github.com/lab83bio/OSMES/blob/main/OSMES_explicit_env.txt)
 ### Cloning git repository
 ```bash
 git clone https://github.com/lab83bio/OSMES.git
