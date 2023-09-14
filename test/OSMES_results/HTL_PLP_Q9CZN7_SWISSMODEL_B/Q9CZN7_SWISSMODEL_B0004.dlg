@@ -1,0 +1,2366 @@
+Using 658 translation points from /tmp/tmp4GC_uS/Q9CZN7_SWISSMODEL_B/translationPoints.npy
+receptor /tmp/tmp4GC_uS/Q9CZN7_SWISSMODEL_B/Q9CZN7_SWISSMODEL_B.pdbqt
+flexRes [['B', [('LYS', 280)]]]
+mapFilesRoot rigidReceptor
+tpointsFilename /tmp/tmp4GC_uS/Q9CZN7_SWISSMODEL_B/translationPoints.npy
+covalentIndices None
+RMSDMatching '1to1'
+MAXGENS 10000000
+MAXEVALS 5000000
+NOIMPROVESTOP 5
+CUTPOINTS [3, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Build pop of 300 individuals in 0.06 second
+ForceField cutoffs: vdw 8.00 estat 10000.00 hbond 5.00 desolv 8.00
+
+quick {'searchRate': 0.3, 'noImproveStop': 1, 'max_steps': 100, 'MAX_FAIL': 3, 'nbSteps': 1}
+hard {'searchRate': 0.05, 'noImproveStop': 3, 'max_steps': 300, 'MAX_FAIL': 4, 'nbSteps': 10}
+stopNoImprov 5
+deltas 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 [0.01, 0.01, 0.01, 0.01]
+
+gen: 1 min: 96.8992611249 pop: 300 dev: 1.5495e+01 seed: 631801  #evals:     300  Total Time:     0.00
+Population Size 300 Selection Population 300
+  
+  ( 49,   2) CRO O1:      516.265 ->      504.429  (  12) O2:      124.983 ->       56.648* (  57) 
+               SMI O2:       56.648 ->       10.006** (  19) 
+ MUT O2:       10.006 ->       10.006 ->        9.706* (   3) 
+ SMI O2:       10.006 ->        9.706 ->        6.715** (   5) 
+ 
+Mutation Rate 0.2026
+
+gen: 1 min: 6.71503565627 pop: 300 dev: 9.9129e-01 seed: 631801  #evals:   25975  Total Time:     0.82
+ _Gen0001 Score:   6.715 LL:  -0.761 LR:   9.590 RR:  -2.115 evals:   25975    2
+Population Size 300 Selection Population 300
+ 
+Mutation Rate 0.2064
+
+gen: 2 min: 6.71503565627 pop: 300 dev: 5.7056e-01 seed: 631801  #evals:   42060  Total Time:     1.39
+ _Gen0002 Score:   6.715 LL:  -0.761 LR:   9.590 RR:  -2.115 evals:   42060    2
+
+  CLUSTERING 3 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    2    0  -1.00         6.715        7.476        6.715  0.000 [0, 1]
+     1    1    2  -1.00         6.806        4.346        6.806  0.000 [2]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 299
+  
+  (  7,  15) 
+ MUT O2:       11.450 ->       11.450 ->        1.956* (  11) 
+ SMI O2:       11.450 ->        1.956 ->       -9.593** (  41) 
+ 
+Mutation Rate 0.2049
+
+gen: 3 min: -9.5931638896 pop: 300 dev: 1.0567e+00 seed: 631801  #evals:   56943  Total Time:     1.91
+ _Gen0003 Score:  -9.593 LL:   0.734 LR:  -7.644 RR:  -2.683 evals:   56943    3
+Population Size 300 Selection Population 300
+ 
+Mutation Rate 0.2072
+
+gen: 4 min: -9.5931638896 pop: 300 dev: 1.5041e+00 seed: 631801  #evals:   71068  Total Time:     2.41
+ _Gen0004 Score:  -9.593 LL:   0.734 LR:  -7.644 RR:  -2.683 evals:   71068    3
+
+  CLUSTERING 4 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    4    0  -1.00        -9.593      -10.327       -9.201  0.392 [0, 1, 2, 3]
+   CEDiff 16.308200 maxEDIFF 16.308 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 297
+  
+  (  0,  52) CRO O1:       -9.758 ->       -9.758* (   2) O2:        8.442 ->        7.791  (   6) 
+               SMI O1:       -9.758 ->      -11.639** (  11) 
+ 
+Mutation Rate 0.2033
+
+gen: 5 min: -11.6387496193 pop: 300 dev: 1.1169e+00 seed: 631801  #evals:   84624  Total Time:     2.89
+ _Gen0005 Score: -11.639 LL:   0.573 LR:  -9.528 RR:  -2.683 evals:   84624    4
+Population Size 300 Selection Population 300
+ 
+Mutation Rate 0.2050
+
+gen: 6 min: -11.6387496193 pop: 300 dev: 2.1652e+00 seed: 631801  #evals:   97941  Total Time:     3.39
+ _Gen0006 Score: -11.639 LL:   0.573 LR:  -9.528 RR:  -2.683 evals:   97941    4
+
+  CLUSTERING 5 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    5    0  -1.00       -11.639      -12.212      -11.400  0.478 [0, 1, 2, 3, 4]
+   CEDiff 2.045586 maxEDIFF 2.046 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 296
+ 
+Mutation Rate 0.2039
+
+gen: 7 min: -11.6387496193 pop: 300 dev: 1.4625e+01 seed: 631801  #evals:  109165  Total Time:     3.83
+ _Gen0007 Score: -11.639 LL:   0.573 LR:  -9.528 RR:  -2.683 evals:  109165    4
+
+  CLUSTERING 10 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    7    0  -1.00       -11.639      -12.212      -10.924  0.527 [0, 1, 2....5, 6, 7]
+     1    3    4  -1.00       -10.772      -11.127      -10.302  0.360 [4, 8, 9]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 292
+ 
+Mutation Rate 0.2051
+
+gen: 8 min: -11.6387496193 pop: 300 dev: 7.4090e-01 seed: 631801  #evals:  119678  Total Time:     4.25
+ _Gen0008 Score: -11.639 LL:   0.573 LR:  -9.528 RR:  -2.683 evals:  119678    4
+
+  CLUSTERING 32 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   21    0  -1.00       -11.639      -12.212      -10.336  0.563 [0, 1, 2.... 30, 31]
+     1   10    4  -1.00       -10.988      -10.254      -10.459  0.405 [4, 3, 5.... 24, 26]
+     2    1   20  -1.00       -10.071       -9.851      -10.071  0.000 [20]
+   CEDiff 0.216086 maxEDIFF 0.216 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 271
+  
+  ( 91,  52) CRO O1:       -9.022 ->      -11.797* (  11) O2:        4.784 ->       -2.800  (   3) 
+               SMI O1:      -11.797 ->      -13.807** (  21) 
+ 
+Mutation Rate 0.2033
+
+gen: 9 min: -13.8073949712 pop: 300 dev: 5.0798e-01 seed: 631801  #evals:  129571  Total Time:     4.65
+ _Gen0009 Score: -13.807 LL:  -0.841 LR: -10.267 RR:  -2.700 evals:  129571    5
+Population Size 300 Selection Population 300
+ 
+Mutation Rate 0.2018
+
+gen: 10 min: -13.8073949712 pop: 300 dev: 2.5116e-01 seed: 631801  #evals:  139210  Total Time:     5.04
+ _Gen0010 Score: -13.807 LL:  -0.841 LR: -10.267 RR:  -2.700 evals:  139210    5
+
+  CLUSTERING 9 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    9    0  -1.00       -13.807      -12.967      -13.083  0.820 [0, 1, 2....6, 7, 8]
+   CEDiff 2.168645 maxEDIFF 2.169 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 292
+ 
+Mutation Rate 0.2028
+
+gen: 11 min: -13.8073949712 pop: 300 dev: 9.8915e-02 seed: 631801  #evals:  147822  Total Time:     5.40
+ _Gen0011 Score: -13.807 LL:  -0.841 LR: -10.267 RR:  -2.700 evals:  147822    5
+
+  CLUSTERING 16 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   16    0  -1.00       -13.807      -12.967      -12.329  0.632 [0, 1, 2.... 14, 15]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 285
+ 
+Mutation Rate 0.1983
+
+gen: 12 min: -13.8073949712 pop: 300 dev: 8.7538e-02 seed: 631801  #evals:  155768  Total Time:     5.73
+ _Gen0012 Score: -13.807 LL:  -0.841 LR: -10.267 RR:  -2.700 evals:  155768    5
+
+  CLUSTERING 37 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   36    0  -1.00       -13.807      -12.967      -12.277  0.487 [0, 1, 2.... 35, 36]
+     1    1   19  -1.00       -12.079      -11.108      -12.079  0.000 [19]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 265
+ 
+Mutation Rate 0.2014
+
+gen: 13 min: -13.8073949712 pop: 300 dev: 1.1221e-01 seed: 631801  #evals:  163863  Total Time:     6.07
+ _Gen0013 Score: -13.807 LL:  -0.841 LR: -10.267 RR:  -2.700 evals:  163863    5
+
+  CLUSTERING 63 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   62    0  -1.00       -13.807      -12.967      -12.227  0.389 [0, 1, 2.... 61, 62]
+     1    1   36  -1.00       -12.079      -11.108      -12.079  0.000 [36]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 239
+  
+  (  0)      MMI:      -13.807 ->      -13.810*** (   5)
+
+Mutation Rate 0.2026
+
+gen: 14 min: -13.8097278616 pop: 300 dev: 8.7831e-02 seed: 631801  #evals:  208941  Total Time:     7.56
+ _Gen0014 Score: -13.810 LL:  -0.853 LR: -10.257 RR:  -2.700 evals:  208941    5
+
+  CLUSTERING 73 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   71    0  -1.00       -13.810      -12.957      -12.239  0.459 [0, 1, 2.... 71, 72]
+     1    2   27  -1.00       -12.167      -12.119      -12.123  0.044 [27, 37]
+   CEDiff 0.089796 maxEDIFF 0.087 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 229
+ 
+Mutation Rate 0.2019
+
+gen: 15 min: -13.8097278616 pop: 300 dev: 1.0002e-01 seed: 631801  #evals:  216841  Total Time:     7.89
+ _Gen0015 Score: -13.810 LL:  -0.853 LR: -10.257 RR:  -2.700 evals:  216841    5
+
+  CLUSTERING 60 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   55    0  -1.00       -13.810      -12.957      -12.154  0.376 [0, 1, 2.... 58, 59]
+     1    5   21  -1.00       -12.167      -12.119      -12.130  0.061 [21, 20, 23, 24, 34]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 242
+ 
+Mutation Rate 0.2051
+
+gen: 16 min: -13.8097278616 pop: 300 dev: 9.4636e-02 seed: 631801  #evals:  224142  Total Time:     8.20
+ _Gen0016 Score: -13.810 LL:  -0.853 LR: -10.257 RR:  -2.700 evals:  224142    5
+
+  CLUSTERING 76 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   70    0  -1.00       -13.810      -12.957      -12.208  0.400 [0, 1, 2.... 74, 75]
+     1    6   17  -1.00       -12.367      -11.474      -12.110  0.203 [17, 16,.... 55, 64]
+   CEDiff 0.200284 maxEDIFF 0.200 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 226
+ 
+Mutation Rate 0.2056
+
+gen: 17 min: -13.8097278616 pop: 300 dev: 1.1481e-01 seed: 631801  #evals:  231960  Total Time:     8.52
+ _Gen0017 Score: -13.810 LL:  -0.853 LR: -10.257 RR:  -2.700 evals:  231960    5
+
+  CLUSTERING 90 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   82    0  -1.00       -13.810      -12.957      -12.314  0.502 [0, 1, 2.... 88, 89]
+     1    8   13  -1.00       -12.833      -11.950      -12.580  0.179 [13, 12,.... 29, 30]
+   CEDiff 0.466463 maxEDIFF 0.466 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 212
+ 
+Mutation Rate 0.2061
+
+gen: 18 min: -13.8097278616 pop: 300 dev: 8.9581e-02 seed: 631801  #evals:  240249  Total Time:     8.87
+ _Gen0018 Score: -13.810 LL:  -0.853 LR: -10.257 RR:  -2.700 evals:  240249    5
+
+  CLUSTERING 72 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   68    0  -1.00       -13.810      -12.957      -12.224  0.376 [0, 1, 2.... 70, 71]
+     1    4    6  -1.00       -12.833      -11.950      -12.693  0.141 [6, 5, 9, 13]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 230
+ 
+Mutation Rate 0.2026
+
+gen: 19 min: -13.8097278616 pop: 300 dev: 8.0779e-02 seed: 631801  #evals:  247751  Total Time:     9.19
+ _Gen0019 Score: -13.810 LL:  -0.853 LR: -10.257 RR:  -2.700 evals:  247751    5
+
+  CLUSTERING 91 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   80    0  -1.00       -13.810      -12.957      -12.229  0.398 [0, 1, 2.... 89, 90]
+     1   11    7  -1.00       -12.924      -12.066      -12.461  0.353 [7, 9, 1.... 47, 80]
+   CEDiff 0.090578 maxEDIFF 0.091 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 211
+ 
+Mutation Rate 0.2060
+
+gen: 20 min: -13.8097278616 pop: 300 dev: 6.3571e-02 seed: 631801  #evals:  255882  Total Time:     9.52
+ _Gen0020 Score: -13.810 LL:  -0.853 LR: -10.257 RR:  -2.700 evals:  255882    5
+
+  CLUSTERING 111 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  110    0  -1.00       -13.810      -12.957      -12.166  0.325 [0, 1, 2....09, 110]
+     1    1    5  -1.00       -12.924      -12.066      -12.924  0.000 [5]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 191
+ 
+Mutation Rate 0.2051
+
+gen: 21 min: -13.8097278616 pop: 300 dev: 1.4925e-01 seed: 631801  #evals:  263642  Total Time:     9.85
+ _Gen0021 Score: -13.810 LL:  -0.853 LR: -10.257 RR:  -2.700 evals:  263642    5
+
+  CLUSTERING 92 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   89    0  -1.00       -13.810      -12.957      -12.214  0.399 [0, 1, 2.... 90, 91]
+     1    3    6  -1.00       -12.924      -12.066      -12.490  0.314 [6, 21, 37]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 210
+ 
+Mutation Rate 0.2032
+
+gen: 22 min: -13.8097278616 pop: 300 dev: 6.9658e-02 seed: 631801  #evals:  271698  Total Time:    10.19
+ _Gen0022 Score: -13.810 LL:  -0.853 LR: -10.257 RR:  -2.700 evals:  271698    5
+
+  CLUSTERING 103 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   95    0  -1.00       -13.810      -12.957      -12.229  0.347 [0, 1, 2....01, 102]
+     1    8    3  -1.00       -12.924      -12.066      -12.486  0.192 [3, 15, .... 33, 51]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 199
+  
+  (  0)      MMI:      -13.810 ->      -13.891*** (   5)
+
+Mutation Rate 0.2056
+
+gen: 23 min: -13.8907417948 pop: 300 dev: 7.6021e-02 seed: 631801  #evals:  310032  Total Time:    11.48
+ _Gen0023 Score: -13.891 LL:  -0.866 LR: -10.325 RR:  -2.700 evals:  310032    5
+
+  CLUSTERING 111 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   99    0  -1.00       -13.891      -13.025      -12.218  0.360 [0, 1, 2....09, 110]
+     1   12    5  -1.00       -12.924      -12.066      -12.510  0.309 [5, 3, 4.... 64, 83]
+   CEDiff 0.081014 maxEDIFF 0.081 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 191
+ 
+Mutation Rate 0.2064
+
+gen: 24 min: -13.8907417948 pop: 300 dev: 7.5257e-02 seed: 631801  #evals:  317702  Total Time:    11.80
+ _Gen0024 Score: -13.891 LL:  -0.866 LR: -10.325 RR:  -2.700 evals:  317702    5
+
+  CLUSTERING 114 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  112    0  -1.00       -13.891      -13.025      -12.252  0.324 [0, 1, 2....12, 113]
+     1    2    5  -1.00       -12.924      -12.066      -12.924  0.000 [5, 4]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 188
+ 
+Mutation Rate 0.2015
+
+gen: 25 min: -13.8907417948 pop: 300 dev: 6.7300e-02 seed: 631801  #evals:  324804  Total Time:    12.11
+ _Gen0025 Score: -13.891 LL:  -0.866 LR: -10.325 RR:  -2.700 evals:  324804    5
+
+  CLUSTERING 141 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  137    0  -1.00       -13.891      -13.025      -12.307  0.402 [0, 1, 2....39, 140]
+     1    4    8  -1.00       -12.924      -12.066      -12.530  0.316 [8, 25, 26, 107]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 161
+ 
+Mutation Rate 0.2068
+
+gen: 26 min: -13.8907417948 pop: 300 dev: 9.4664e-02 seed: 631801  #evals:  332479  Total Time:    12.43
+ _Gen0026 Score: -13.891 LL:  -0.866 LR: -10.325 RR:  -2.700 evals:  332479    5
+
+  CLUSTERING 140 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  129    0  -1.00       -13.891      -13.025      -12.205  0.332 [0, 1, 2....38, 139]
+     1   11    5  -1.00       -12.924      -12.066      -12.193  0.269 [5, 11, ....02, 103]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 162
+  
+  (  0)      MMI:      -13.891 ->      -13.925*** (   3)
+
+Mutation Rate 0.2083
+
+gen: 27 min: -13.9245394886 pop: 300 dev: 6.4923e-02 seed: 631801  #evals:  367907  Total Time:    13.62
+ _Gen0027 Score: -13.925 LL:  -0.852 LR: -10.387 RR:  -2.685 evals:  367907    5
+
+  CLUSTERING 137 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  124    0  -1.00       -13.925      -13.072      -12.237  0.360 [0, 1, 2....35, 136]
+     1   13    5  -1.00       -12.924      -12.066      -12.332  0.256 [5, 7, 1....85, 110]
+   CEDiff 0.033798 maxEDIFF 0.034 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 165
+ 
+Mutation Rate 0.2067
+
+gen: 28 min: -13.9245394886 pop: 300 dev: 6.2527e-02 seed: 631801  #evals:  375082  Total Time:    13.93
+ _Gen0028 Score: -13.925 LL:  -0.852 LR: -10.387 RR:  -2.685 evals:  375082    5
+
+  CLUSTERING 150 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  140    0  -1.00       -13.925      -13.072      -12.379  0.427 [0, 1, 2....48, 149]
+     1   10   10  -1.00       -12.943      -12.107      -12.598  0.229 [10, 11,.... 65, 71]
+   CEDiff 0.019168 maxEDIFF 0.019 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 152
+ 
+Mutation Rate 0.2029
+
+gen: 29 min: -13.9245394886 pop: 300 dev: 1.2041e-01 seed: 631801  #evals:  382539  Total Time:    14.24
+ _Gen0029 Score: -13.925 LL:  -0.852 LR: -10.387 RR:  -2.685 evals:  382539    5
+
+  CLUSTERING 153 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  142    0  -1.00       -13.925      -13.072      -12.309  0.348 [0, 1, 2....51, 152]
+     1   11    6  -1.00       -13.006      -12.096      -12.493  0.276 [6, 7, 2....86, 113]
+   CEDiff 0.063052 maxEDIFF 0.063 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 149
+ 
+Mutation Rate 0.2040
+
+gen: 30 min: -13.9245394886 pop: 300 dev: 9.7182e-02 seed: 631801  #evals:  389775  Total Time:    14.55
+ _Gen0030 Score: -13.925 LL:  -0.852 LR: -10.387 RR:  -2.685 evals:  389775    5
+
+  CLUSTERING 161 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  153    0  -1.00       -13.925      -13.072      -12.262  0.324 [0, 1, 2....59, 160]
+     1    8    3  -1.00       -13.006      -12.096      -12.321  0.353 [3, 25, ....36, 137]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 141
+ 
+Mutation Rate 0.2065
+
+gen: 31 min: -13.9245394886 pop: 300 dev: 9.8045e-02 seed: 631801  #evals:  397312  Total Time:    14.87
+ _Gen0031 Score: -13.925 LL:  -0.852 LR: -10.387 RR:  -2.685 evals:  397312    5
+
+  CLUSTERING 131 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  119    0  -1.00       -13.925      -13.072      -12.227  0.262 [0, 6, 7....29, 130]
+     1   12    2  -1.00       -13.467      -12.583      -12.682  0.480 [2, 1, 3.... 74, 97]
+   CEDiff 0.460564 maxEDIFF 0.461 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 171
+ 
+Mutation Rate 0.1979
+
+gen: 32 min: -13.9245394886 pop: 300 dev: 7.8077e-02 seed: 631801  #evals:  404278  Total Time:    15.17
+ _Gen0032 Score: -13.925 LL:  -0.852 LR: -10.387 RR:  -2.685 evals:  404278    5
+
+  CLUSTERING 148 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  141    0  -1.00       -13.925      -13.072      -12.269  0.322 [0, 2, 3....46, 147]
+     1    7    1  -1.00       -13.467      -12.583      -12.754  0.392 [1, 6, 7.... 61, 62]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 154
+ 
+Mutation Rate 0.2032
+
+gen: 33 min: -13.9245394886 pop: 300 dev: 1.0617e-01 seed: 631801  #evals:  411157  Total Time:    15.47
+ _Gen0033 Score: -13.925 LL:  -0.852 LR: -10.387 RR:  -2.685 evals:  411157    5
+
+  CLUSTERING 156 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  151    0  -1.00       -13.925      -13.072      -12.282  0.387 [0, 1, 2....54, 155]
+     1    5    7  -1.00       -13.467      -12.583      -12.502  0.506 [7, 27, 50, 93, 94]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 146
+ 
+Mutation Rate 0.2044
+
+gen: 34 min: -13.9245394886 pop: 300 dev: 9.8868e-02 seed: 631801  #evals:  418176  Total Time:    15.77
+ _Gen0034 Score: -13.925 LL:  -0.852 LR: -10.387 RR:  -2.685 evals:  418176    5
+
+  CLUSTERING 136 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  132    0  -1.00       -13.925      -13.072      -12.241  0.298 [0, 3, 4....34, 135]
+     1    4    2  -1.00       -13.467      -12.583      -12.968  0.501 [2, 1, 20, 32]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 166
+  
+  (  0)       DMI:      -13.925 ->      -13.942*** (   7)
+
+  (113,   0) 
+ MUT O1:      -13.942 ->      -13.942 ->      -13.964* (   2) 
+ SMI O1:      -13.942 ->      -13.942 ->      -13.964** (   7) 
+ 
+Mutation Rate 0.1978
+
+gen: 35 min: -13.9643322209 pop: 300 dev: 2.2768e-01 seed: 631801  #evals:  454866  Total Time:    16.99
+ _Gen0035 Score: -13.964 LL:  -0.847 LR: -10.418 RR:  -2.699 evals:  454866    6
+
+  CLUSTERING 132 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  129    0  -1.00       -13.964      -13.117      -12.243  0.354 [0, 1, 2....30, 131]
+     1    3    4  -1.00       -13.467      -12.583      -12.554  0.645 [4, 77, 78]
+   CEDiff 0.039793 maxEDIFF 0.040 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 170
+ 
+Mutation Rate 0.2076
+
+gen: 36 min: -13.9643322209 pop: 300 dev: 4.7330e-02 seed: 631801  #evals:  461844  Total Time:    17.29
+ _Gen0036 Score: -13.964 LL:  -0.847 LR: -10.418 RR:  -2.699 evals:  461844    6
+
+  CLUSTERING 149 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  148    0  -1.00       -13.964      -13.117      -12.314  0.383 [0, 1, 2....47, 148]
+     1    1    4  -1.00       -13.467      -12.583      -13.467  0.000 [4]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 153
+ 
+Mutation Rate 0.2039
+
+gen: 37 min: -13.9643322209 pop: 300 dev: 6.2696e-02 seed: 631801  #evals:  468489  Total Time:    17.58
+ _Gen0037 Score: -13.964 LL:  -0.847 LR: -10.418 RR:  -2.699 evals:  468489    6
+
+  CLUSTERING 153 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  151    0  -1.00       -13.964      -13.117      -12.293  0.405 [0, 1, 2....51, 152]
+     1    2    7  -1.00       -13.467      -12.583      -13.467  0.000 [7, 6]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 149
+  
+  ( 93,   0) CRO O1:      -11.792 ->      -11.792  (   2) O2:      -13.971 ->      -13.971* (   2) 
+               SMI O2:      -13.971 ->      -13.975** (   6) 
+ 
+Mutation Rate 0.2044
+
+gen: 38 min: -13.97546478 pop: 300 dev: 8.4526e-02 seed: 631801  #evals:  474946  Total Time:    17.86
+ _Gen0038 Score: -13.975 LL:  -0.832 LR: -10.444 RR:  -2.699 evals:  474946    7
+
+  CLUSTERING 154 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  153    0  -1.00       -13.975      -13.144      -12.330  0.438 [0, 1, 2....52, 153]
+     1    1    8  -1.00       -13.467      -12.583      -13.467  0.000 [8]
+   CEDiff 0.011133 maxEDIFF 0.011 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 148
+ 
+Mutation Rate 0.2044
+
+gen: 39 min: -13.97546478 pop: 300 dev: 4.5513e-02 seed: 631801  #evals:  481728  Total Time:    18.16
+ _Gen0039 Score: -13.975 LL:  -0.832 LR: -10.444 RR:  -2.699 evals:  481728    7
+
+  CLUSTERING 192 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  189    0  -1.00       -13.975      -13.144      -12.267  0.320 [0, 1, 2....90, 191]
+     1    3    4  -1.00       -13.467      -12.583      -13.179  0.203 [4, 5, 6]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 110
+ 
+Mutation Rate 0.2069
+
+gen: 40 min: -13.97546478 pop: 300 dev: 4.0934e-02 seed: 631801  #evals:  488018  Total Time:    18.44
+ _Gen0040 Score: -13.975 LL:  -0.832 LR: -10.444 RR:  -2.699 evals:  488018    7
+
+  CLUSTERING 193 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  180    0  -1.00       -13.975      -13.144      -12.364  0.470 [0, 1, 2....91, 192]
+     1   13   12  -1.00       -13.482      -12.610      -13.151  0.293 [12, 15,.... 46, 50]
+   CEDiff 0.015780 maxEDIFF 0.016 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 109
+ 
+Mutation Rate 0.2004
+
+gen: 41 min: -13.97546478 pop: 300 dev: 4.2778e-02 seed: 631801  #evals:  494240  Total Time:    18.71
+ _Gen0041 Score: -13.975 LL:  -0.832 LR: -10.444 RR:  -2.699 evals:  494240    7
+
+  CLUSTERING 190 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  180    0  -1.00       -13.975      -13.144      -12.369  0.507 [0, 1, 2....88, 189]
+     1   10   19  -1.00       -13.482      -12.610      -13.283  0.233 [19, 16,.... 28, 29]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 112
+ 
+Mutation Rate 0.2058
+
+gen: 42 min: -13.97546478 pop: 300 dev: 4.9797e-02 seed: 631801  #evals:  500832  Total Time:    19.00
+ _Gen0042 Score: -13.975 LL:  -0.832 LR: -10.444 RR:  -2.699 evals:  500832    7
+
+  CLUSTERING 183 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  170    0  -1.00       -13.975      -13.144      -12.496  0.559 [0, 1, 2....81, 182]
+     1   13   24  -1.00       -13.482      -12.610      -13.122  0.483 [24, 19,....77, 142]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 119
+ 
+Mutation Rate 0.2049
+
+gen: 43 min: -13.97546478 pop: 300 dev: 1.3622e-01 seed: 631801  #evals:  507585  Total Time:    19.29
+ _Gen0043 Score: -13.975 LL:  -0.832 LR: -10.444 RR:  -2.699 evals:  507585    7
+
+  CLUSTERING 193 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  184    0  -1.00       -13.975      -13.144      -12.402  0.502 [0, 1, 2....91, 192]
+     1    9   17  -1.00       -13.482      -12.610      -12.955  0.541 [17, 14,....18, 119]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 109
+  
+  (  0)       DMI:      -13.975 ->      -13.985*** (   3)
+
+Mutation Rate 0.2039
+
+gen: 44 min: -13.9848346646 pop: 300 dev: 1.4975e-01 seed: 631801  #evals:  535387  Total Time:    20.24
+ _Gen0044 Score: -13.985 LL:  -0.832 LR: -10.454 RR:  -2.699 evals:  535387    7
+
+  CLUSTERING 193 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  189    0  -1.00       -13.985      -13.153      -12.279  0.323 [0, 1, 2....91, 192]
+     1    4    3  -1.00       -13.482      -12.610      -13.145  0.281 [3, 4, 5, 18]
+   CEDiff 0.009370 maxEDIFF 0.009 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 109
+ 
+Mutation Rate 0.2026
+
+gen: 45 min: -13.9848346646 pop: 300 dev: 7.0463e-02 seed: 631801  #evals:  542299  Total Time:    20.54
+ _Gen0045 Score: -13.985 LL:  -0.832 LR: -10.454 RR:  -2.699 evals:  542299    7
+
+  CLUSTERING 174 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  171    0  -1.00       -13.985      -13.153      -12.255  0.312 [0, 1, 2....72, 173]
+     1    3    3  -1.00       -13.482      -12.610      -13.057  0.301 [3, 8, 9]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 128
+ 
+Mutation Rate 0.2031
+
+gen: 46 min: -13.9848346646 pop: 300 dev: 8.9403e-02 seed: 631801  #evals:  548761  Total Time:    20.82
+ _Gen0046 Score: -13.985 LL:  -0.832 LR: -10.454 RR:  -2.699 evals:  548761    7
+
+  CLUSTERING 172 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  169    0  -1.00       -13.985      -13.153      -12.267  0.326 [0, 1, 2....70, 171]
+     1    3    5  -1.00       -13.482      -12.610      -13.482  0.000 [5, 3, 4]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 130
+ 
+Mutation Rate 0.2025
+
+gen: 47 min: -13.9848346646 pop: 300 dev: 2.8008e-02 seed: 631801  #evals:  555532  Total Time:    21.11
+ _Gen0047 Score: -13.985 LL:  -0.832 LR: -10.454 RR:  -2.699 evals:  555532    7
+
+  CLUSTERING 161 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  155    0  -1.00       -13.985      -13.153      -12.230  0.317 [0, 1, 2....59, 160]
+     1    6    3  -1.00       -13.482      -12.610      -12.920  0.393 [3, 4, 5.... 21, 30]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 141
+  
+  (  0)       DMI:      -13.985 ->      -13.999*** (   3)
+
+Mutation Rate 0.1997
+
+gen: 48 min: -13.9985505354 pop: 300 dev: 6.4428e-02 seed: 631801  #evals:  580302  Total Time:    21.96
+ _Gen0048 Score: -13.999 LL:  -0.832 LR: -10.501 RR:  -2.666 evals:  580302    7
+
+  CLUSTERING 189 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  174    0  -1.00       -13.999      -13.167      -12.339  0.473 [0, 1, 2....87, 188]
+     1   15   15  -1.00       -13.482      -12.610      -13.033  0.443 [15, 12,.... 53, 85]
+   CEDiff 0.013716 maxEDIFF 0.014 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 113
+ 
+Mutation Rate 0.2019
+
+gen: 49 min: -13.9985505354 pop: 300 dev: 4.1804e-02 seed: 631801  #evals:  586647  Total Time:    22.24
+ _Gen0049 Score: -13.999 LL:  -0.832 LR: -10.501 RR:  -2.666 evals:  586647    7
+
+  CLUSTERING 172 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  164    0  -1.00       -13.999      -13.167      -12.265  0.278 [0, 5, 6....70, 171]
+     1    8    1  -1.00       -13.505      -12.613      -12.881  0.557 [1, 2, 3.... 77, 78]
+   CEDiff 0.022587 maxEDIFF 0.023 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 130
+ 
+Mutation Rate 0.2000
+
+gen: 50 min: -13.9985505354 pop: 300 dev: 3.7764e-02 seed: 631801  #evals:  593043  Total Time:    22.52
+ _Gen0050 Score: -13.999 LL:  -0.832 LR: -10.501 RR:  -2.666 evals:  593043    7
+
+  CLUSTERING 172 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  156    0  -1.00       -13.999      -13.167      -12.317  0.432 [0, 1, 2....70, 171]
+     1   16    4  -1.00       -13.650      -12.775      -13.068  0.418 [4, 11, ....29, 120]
+   CEDiff 0.144702 maxEDIFF 0.145 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 130
+ 
+Mutation Rate 0.2056
+
+gen: 51 min: -13.9985505354 pop: 300 dev: 4.6656e-02 seed: 631801  #evals:  599759  Total Time:    22.81
+ _Gen0051 Score: -13.999 LL:  -0.832 LR: -10.501 RR:  -2.666 evals:  599759    7
+
+  CLUSTERING 214 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  205    0  -1.00       -13.999      -13.167      -12.486  0.567 [0, 1, 2....12, 213]
+     1    9   19  -1.00       -13.650      -12.775      -13.364  0.252 [19, 26,.... 38, 43]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 88
+ 
+Mutation Rate 0.2062
+
+gen: 52 min: -13.9985505354 pop: 300 dev: 4.6756e-02 seed: 631801  #evals:  606071  Total Time:    23.08
+ _Gen0052 Score: -13.999 LL:  -0.832 LR: -10.501 RR:  -2.666 evals:  606071    7
+
+  CLUSTERING 219 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  202    0  -1.00       -13.999      -13.167      -12.409  0.534 [0, 1, 2....17, 218]
+     1   17   14  -1.00       -13.691      -12.816      -13.019  0.578 [14, 16,....10, 189]
+   CEDiff 0.041547 maxEDIFF 0.042 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 83
+ 
+Mutation Rate 0.2049
+
+gen: 53 min: -13.9985505354 pop: 300 dev: 4.7268e-02 seed: 631801  #evals:  612467  Total Time:    23.37
+ _Gen0053 Score: -13.999 LL:  -0.832 LR: -10.501 RR:  -2.666 evals:  612467    7
+
+  CLUSTERING 225 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  211    0  -1.00       -13.999      -13.167      -12.325  0.470 [0, 1, 2....23, 224]
+     1   14   14  -1.00       -13.691      -12.816      -13.089  0.592 [14, 10,.... 68, 77]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 77
+ 
+Mutation Rate 0.2010
+
+gen: 54 min: -13.9985505354 pop: 300 dev: 4.1963e-02 seed: 631801  #evals:  618778  Total Time:    23.64
+ _Gen0054 Score: -13.999 LL:  -0.832 LR: -10.501 RR:  -2.666 evals:  618778    7
+
+  CLUSTERING 209 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  191    0  -1.00       -13.999      -13.167      -12.374  0.531 [0, 1, 2....07, 208]
+     1   18   10  -1.00       -13.691      -12.816      -12.889  0.454 [10, 9, ....67, 200]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 93
+ 
+Mutation Rate 0.2013
+
+gen: 55 min: -13.9985505354 pop: 300 dev: 4.9061e-02 seed: 631801  #evals:  625131  Total Time:    23.92
+ _Gen0055 Score: -13.999 LL:  -0.832 LR: -10.501 RR:  -2.666 evals:  625131    7
+
+  CLUSTERING 220 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  194    0  -1.00       -13.999      -13.167      -12.363  0.543 [0, 1, 2....18, 219]
+     1   26   16  -1.00       -13.691      -12.816      -13.065  0.641 [16, 10,....81, 182]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 82
+  
+  (  0)       DMI:      -13.999 ->      -14.014*** (   5)
+
+  ( 12,   0) 
+ MUT O1:      -14.014 ->      -14.014 ->      -14.018* (   2) 
+ SMI O1:      -14.014 ->      -14.014 ->      -14.018** (   3) 
+ 
+Mutation Rate 0.2001
+
+gen: 56 min: -14.0179615556 pop: 300 dev: 3.9097e-02 seed: 631801  #evals:  646216  Total Time:    24.65
+ _Gen0056 Score: -14.018 LL:  -0.829 LR: -10.532 RR:  -2.657 evals:  646216    8
+
+  CLUSTERING 176 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  166    0  -1.00       -14.018      -13.189      -12.240  0.431 [0, 1, 2....74, 175]
+     1   10    5  -1.00       -13.691      -12.816      -12.927  0.619 [5, 4, 1.... 42, 43]
+   CEDiff 0.019411 maxEDIFF 0.019 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 126
+ 
+Mutation Rate 0.2015
+
+gen: 57 min: -14.0179615556 pop: 300 dev: 4.3653e-02 seed: 631801  #evals:  652621  Total Time:    24.93
+ _Gen0057 Score: -14.018 LL:  -0.829 LR: -10.532 RR:  -2.657 evals:  652621    8
+
+  CLUSTERING 211 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  200    0  -1.00       -14.018      -13.189      -12.226  0.411 [0, 1, 2....09, 210]
+     1   11    8  -1.00       -13.691      -12.816      -13.370  0.465 [8, 5, 6....22, 132]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 91
+ 
+Mutation Rate 0.1976
+
+gen: 58 min: -14.0179615556 pop: 300 dev: 3.2252e-02 seed: 631801  #evals:  658838  Total Time:    25.20
+ _Gen0058 Score: -14.018 LL:  -0.829 LR: -10.532 RR:  -2.657 evals:  658838    8
+
+  CLUSTERING 183 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  173    0  -1.00       -14.018      -13.189      -12.232  0.402 [0, 1, 2....81, 182]
+     1   10    5  -1.00       -13.691      -12.816      -12.607  0.447 [5, 12, .... 64, 65]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 119
+ 
+Mutation Rate 0.2015
+
+gen: 59 min: -14.0179615556 pop: 300 dev: 3.0336e-02 seed: 631801  #evals:  665056  Total Time:    25.48
+ _Gen0059 Score: -14.018 LL:  -0.829 LR: -10.532 RR:  -2.657 evals:  665056    8
+
+  CLUSTERING 191 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  185    0  -1.00       -14.018      -13.189      -12.226  0.393 [0, 1, 2....89, 190]
+     1    6    4  -1.00       -13.691      -12.816      -13.065  0.608 [4, 3, 1.... 26, 41]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 111
+  
+  (  0)       DMI:      -14.018 ->      -14.028*** (  12)
+
+Mutation Rate 0.2028
+
+gen: 60 min: -14.0280826912 pop: 300 dev: 9.4733e-02 seed: 631801  #evals:  673735  Total Time:    25.83
+ _Gen0060 Score: -14.028 LL:  -0.827 LR: -10.548 RR:  -2.653 evals:  673735    8
+
+  CLUSTERING 216 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  163    0  -1.00       -14.028      -13.201      -12.864  0.796 [0, 1, 2....14, 215]
+     1   53   32  -1.00       -13.762      -12.868      -13.396  0.478 [32, 33,....36, 137]
+   CEDiff 0.081253 maxEDIFF 0.071 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 86
+ 
+Mutation Rate 0.2015
+
+gen: 61 min: -14.0280826912 pop: 300 dev: 2.8831e-02 seed: 631801  #evals:  679907  Total Time:    26.10
+ _Gen0061 Score: -14.028 LL:  -0.827 LR: -10.548 RR:  -2.653 evals:  679907    8
+
+  CLUSTERING 157 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  150    0  -1.00       -14.028      -13.201      -12.190  0.351 [0, 1, 6....55, 156]
+     1    7    3  -1.00       -13.762      -12.868      -13.326  0.576 [3, 2, 4.... 13, 63]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 145
+ 
+Mutation Rate 0.2025
+
+gen: 62 min: -14.0280826912 pop: 300 dev: 3.8317e-02 seed: 631801  #evals:  686158  Total Time:    26.37
+ _Gen0062 Score: -14.028 LL:  -0.827 LR: -10.548 RR:  -2.653 evals:  686158    8
+
+  CLUSTERING 168 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  160    0  -1.00       -14.028      -13.201      -12.217  0.402 [0, 1, 2....66, 167]
+     1    8    4  -1.00       -13.795      -12.902      -13.540  0.196 [4, 5, 6.... 14, 15]
+   CEDiff 0.032267 maxEDIFF 0.032 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 134
+ 
+Mutation Rate 0.2058
+
+gen: 63 min: -14.0280826912 pop: 300 dev: 3.9156e-02 seed: 631801  #evals:  692593  Total Time:    26.64
+ _Gen0063 Score: -14.028 LL:  -0.827 LR: -10.548 RR:  -2.653 evals:  692593    8
+
+  CLUSTERING 161 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  149    0  -1.00       -14.028      -13.201      -12.282  0.474 [0, 1, 2....59, 160]
+     1   12    8  -1.00       -13.795      -12.903      -13.535  0.421 [8, 9, 1.... 24, 32]
+   CEDiff 0.000461 maxEDIFF 0.000 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 141
+ 
+Mutation Rate 0.2044
+
+gen: 64 min: -14.0280826912 pop: 300 dev: 4.6029e-02 seed: 631801  #evals:  698973  Total Time:    26.89
+ _Gen0064 Score: -14.028 LL:  -0.827 LR: -10.548 RR:  -2.653 evals:  698973    8
+
+  CLUSTERING 181 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  162    0  -1.00       -14.028      -13.201      -12.278  0.478 [0, 1, 2....79, 180]
+     1   19    5  -1.00       -13.795      -12.903      -13.276  0.501 [5, 6, 7.... 39, 40]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 121
+ 
+Mutation Rate 0.2003
+
+gen: 65 min: -14.0280826912 pop: 300 dev: 3.9854e-02 seed: 631801  #evals:  704941  Total Time:    27.12
+ _Gen0065 Score: -14.028 LL:  -0.827 LR: -10.548 RR:  -2.653 evals:  704941    8
+
+  CLUSTERING 178 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  161    0  -1.00       -14.028      -13.201      -12.222  0.371 [0, 1, 2....76, 177]
+     1   17    4  -1.00       -13.827      -12.935      -13.713  0.088 [4, 3, 5.... 20, 21]
+   CEDiff 0.031988 maxEDIFF 0.032 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 124
+ 
+Mutation Rate 0.2057
+
+gen: 66 min: -14.0280826912 pop: 300 dev: 5.2293e-02 seed: 631801  #evals:  710936  Total Time:    27.35
+ _Gen0066 Score: -14.028 LL:  -0.827 LR: -10.548 RR:  -2.653 evals:  710936    8
+
+  CLUSTERING 207 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  175    0  -1.00       -14.028      -13.201      -12.365  0.558 [0, 1, 2....05, 206]
+     1   32   12  -1.00       -13.830      -12.938      -13.451  0.458 [12, 13,.... 78, 79]
+   CEDiff 0.003059 maxEDIFF 0.003 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 95
+ 
+Mutation Rate 0.2022
+
+gen: 67 min: -14.0280826912 pop: 300 dev: 4.7961e-02 seed: 631801  #evals:  716942  Total Time:    27.58
+ _Gen0067 Score: -14.028 LL:  -0.827 LR: -10.548 RR:  -2.653 evals:  716942    8
+
+  CLUSTERING 195 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  181    0  -1.00       -14.028      -13.201      -12.226  0.394 [0, 1, 2....93, 194]
+     1   14    7  -1.00       -13.830      -12.938      -13.621  0.306 [7, 3, 4.... 21, 28]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 107
+ 
+Mutation Rate 0.2097
+
+gen: 68 min: -14.0280826912 pop: 300 dev: 3.2456e-02 seed: 631801  #evals:  723365  Total Time:    27.82
+ _Gen0068 Score: -14.028 LL:  -0.827 LR: -10.548 RR:  -2.653 evals:  723365    8
+
+  CLUSTERING 187 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  185    0  -1.00       -14.028      -13.201      -12.193  0.350 [0, 1, 2....85, 186]
+     1    2    6  -1.00       -13.830      -12.938      -13.830  0.000 [6, 5]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 115
+ 
+Mutation Rate 0.2006
+
+gen: 69 min: -14.0280826912 pop: 300 dev: 4.9308e-02 seed: 631801  #evals:  729754  Total Time:    28.07
+ _Gen0069 Score: -14.028 LL:  -0.827 LR: -10.548 RR:  -2.653 evals:  729754    8
+
+  CLUSTERING 198 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  189    0  -1.00       -14.028      -13.201      -12.265  0.424 [0, 1, 2....96, 197]
+     1    9    6  -1.00       -13.830      -12.938      -13.260  0.594 [6, 4, 5.... 29, 61]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 104
+  
+  (  0)       DMI:      -14.028 ->      -14.033*** (   6)
+
+Mutation Rate 0.2043
+
+gen: 70 min: -14.0328357294 pop: 300 dev: 4.0327e-02 seed: 631801  #evals:  753871  Total Time:    28.78
+ _Gen0070 Score: -14.033 LL:  -0.835 LR: -10.545 RR:  -2.653 evals:  753871    8
+
+  CLUSTERING 187 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  169    0  -1.00       -14.033      -13.198      -12.217  0.392 [0, 1, 2....85, 186]
+     1   18    5  -1.00       -13.830      -12.938      -13.504  0.369 [5, 4, 6.... 27, 28]
+   CEDiff 0.004753 maxEDIFF 0.005 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 115
+ 
+Mutation Rate 0.2007
+
+gen: 71 min: -14.0328357294 pop: 300 dev: 4.7573e-02 seed: 631801  #evals:  759957  Total Time:    29.02
+ _Gen0071 Score: -14.033 LL:  -0.835 LR: -10.545 RR:  -2.653 evals:  759957    8
+
+  CLUSTERING 192 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  179    0  -1.00       -14.033      -13.198      -12.298  0.484 [0, 1, 2....90, 191]
+     1   13   13  -1.00       -13.830      -12.938      -13.516  0.567 [13, 6, .... 33, 41]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 110
+ 
+Mutation Rate 0.2033
+
+gen: 72 min: -14.0328357294 pop: 300 dev: 3.0047e-02 seed: 631801  #evals:  766071  Total Time:    29.25
+ _Gen0072 Score: -14.033 LL:  -0.835 LR: -10.545 RR:  -2.653 evals:  766071    8
+
+  CLUSTERING 168 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  162    0  -1.00       -14.033      -13.198      -12.172  0.307 [0, 1, 2....66, 167]
+     1    6    5  -1.00       -13.830      -12.938      -13.017  0.586 [5, 4, 7, 9, 10, 11]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 134
+ 
+Mutation Rate 0.2058
+
+gen: 73 min: -14.0328357294 pop: 300 dev: 3.0195e-02 seed: 631801  #evals:  772250  Total Time:    29.49
+ _Gen0073 Score: -14.033 LL:  -0.835 LR: -10.545 RR:  -2.653 evals:  772250    8
+
+  CLUSTERING 182 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  174    0  -1.00       -14.033      -13.198      -12.210  0.367 [0, 1, 3....80, 181]
+     1    8    2  -1.00       -13.830      -12.938      -12.990  0.356 [2, 9, 1.... 17, 18]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 120
+  
+  (  0)       DMI:      -14.033 ->      -14.040*** (   3)
+
+Mutation Rate 0.2065
+
+gen: 74 min: -14.0401253273 pop: 300 dev: 5.0296e-02 seed: 631801  #evals:  795710  Total Time:    30.18
+ _Gen0074 Score: -14.040 LL:  -0.824 LR: -10.533 RR:  -2.683 evals:  795710    8
+
+  CLUSTERING 179 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  169    0  -1.00       -14.040      -13.216      -12.251  0.453 [0, 1, 2....77, 178]
+     1   10    8  -1.00       -13.830      -12.938      -13.489  0.455 [8, 6, 7.... 24, 25]
+   CEDiff 0.007290 maxEDIFF 0.007 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 123
+ 
+Mutation Rate 0.2061
+
+gen: 75 min: -14.0401253273 pop: 300 dev: 3.0016e-02 seed: 631801  #evals:  801789  Total Time:    30.41
+ _Gen0075 Score: -14.040 LL:  -0.824 LR: -10.533 RR:  -2.683 evals:  801789    8
+
+  CLUSTERING 199 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  191    0  -1.00       -14.040      -13.216      -12.183  0.342 [0, 1, 5....97, 198]
+     1    8    2  -1.00       -13.830      -12.938      -13.284  0.549 [2, 3, 4.... 16, 17]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 103
+ 
+Mutation Rate 0.2031
+
+gen: 76 min: -14.0401253273 pop: 300 dev: 7.4643e-02 seed: 631801  #evals:  806690  Total Time:    30.61
+ _Gen0076 Score: -14.040 LL:  -0.824 LR: -10.533 RR:  -2.683 evals:  806690    8
+
+  CLUSTERING 288 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  199    0  -1.00       -14.040      -13.216      -13.696  0.513 [0, 1, 2....86, 287]
+     1   89  131  -1.00       -13.848      -12.931      -13.714  0.309 [131, 13....81, 282]
+   CEDiff 0.018202 maxEDIFF 0.018 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 14
+  
+  (  0,   9) CRO O1:      -14.193 ->      -14.193* (   2) O2:      -11.835 ->      -11.835  (   2) 
+               SMI O1:      -14.193 ->      -14.373** (   4) 
+ 
+Mutation Rate 0.2061
+
+gen: 77 min: -14.3733748652 pop: 300 dev: 9.7942e-02 seed: 631801  #evals:  814301  Total Time:    30.89
+ _Gen0077 Score: -14.373 LL:  -0.875 LR: -10.828 RR:  -2.670 evals:  814301    9
+
+  CLUSTERING 126 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  124    0  -1.00       -14.373      -13.498      -13.412  0.530 [0, 1, 2....24, 125]
+     1    2   89  -1.00       -13.040      -12.133      -12.819  0.222 [89, 114]
+   CEDiff -0.474679 maxEDIFF 0.333 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 176
+  
+  (  0,  48) CRO O1:      -14.380 ->      -14.380* (   2) O2:      -11.860 ->      -11.860  (   2) 
+               SMI O1:      -14.380 ->      -14.428** (   3) 
+ 
+Mutation Rate 0.2035
+
+gen: 78 min: -14.4275921278 pop: 300 dev: 1.0066e-01 seed: 631801  #evals:  821989  Total Time:    31.17
+ _Gen0078 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  821989   10
+
+  CLUSTERING 84 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   67    0  -1.00       -14.428      -13.568      -12.894  0.483 [0, 1, 2.... 82, 83]
+     1   17   16  -1.00       -13.093      -12.211      -12.752  0.178 [16, 19,.... 74, 78]
+   CEDiff 0.106737 maxEDIFF 0.054 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 218
+ 
+Mutation Rate 0.2085
+
+gen: 79 min: -14.4275921278 pop: 300 dev: 6.2498e-02 seed: 631801  #evals:  829118  Total Time:    31.43
+ _Gen0079 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  829118   10
+
+  CLUSTERING 82 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   68    0  -1.00       -14.428      -13.568      -12.863  0.517 [0, 1, 2.... 80, 81]
+     1   14   14  -1.00       -13.093      -12.211      -12.826  0.237 [14, 12,.... 62, 66]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 220
+ 
+Mutation Rate 0.2050
+
+gen: 80 min: -14.4275921278 pop: 300 dev: 7.4155e-02 seed: 631801  #evals:  836189  Total Time:    31.69
+ _Gen0080 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  836189   10
+
+  CLUSTERING 102 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   90    0  -1.00       -14.428      -13.568      -12.875  0.483 [0, 1, 2....00, 101]
+     1   12   15  -1.00       -13.093      -12.211      -12.700  0.201 [15, 24,.... 96, 97]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 200
+ 
+Mutation Rate 0.2033
+
+gen: 81 min: -14.4275921278 pop: 300 dev: 6.0360e-02 seed: 631801  #evals:  843640  Total Time:    31.96
+ _Gen0081 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  843640   10
+
+  CLUSTERING 123 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  102    0  -1.00       -14.428      -13.568      -12.792  0.416 [0, 1, 2....19, 120]
+     1   21   12  -1.00       -13.270      -12.420      -12.746  0.269 [12, 11,....21, 122]
+   CEDiff 0.177278 maxEDIFF 0.177 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 179
+ 
+Mutation Rate 0.2021
+
+gen: 82 min: -14.4275921278 pop: 300 dev: 4.9278e-02 seed: 631801  #evals:  850727  Total Time:    32.23
+ _Gen0082 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  850727   10
+
+  CLUSTERING 123 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   99    0  -1.00       -14.428      -13.568      -12.759  0.334 [0, 1, 2....21, 122]
+     1   24    8  -1.00       -13.270      -12.420      -12.754  0.268 [8, 5, 6....01, 120]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 179
+ 
+Mutation Rate 0.2013
+
+gen: 83 min: -14.4275921278 pop: 300 dev: 1.0303e-01 seed: 631801  #evals:  858224  Total Time:    32.50
+ _Gen0083 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  858224   10
+
+  CLUSTERING 119 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  105    0  -1.00       -14.428      -13.568      -12.763  0.407 [0, 1, 2....17, 118]
+     1   14    5  -1.00       -13.279      -12.426      -12.817  0.288 [5, 6, 8....03, 107]
+   CEDiff 0.008575 maxEDIFF 0.009 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 183
+ 
+Mutation Rate 0.2042
+
+gen: 84 min: -14.4275921278 pop: 300 dev: 5.3767e-02 seed: 631801  #evals:  865187  Total Time:    32.76
+ _Gen0084 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  865187   10
+
+  CLUSTERING 119 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   97    0  -1.00       -14.428      -13.568      -12.756  0.286 [0, 1, 4....17, 118]
+     1   22    3  -1.00       -13.279      -12.426      -12.641  0.239 [3, 2, 2....14, 115]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 183
+ 
+Mutation Rate 0.2022
+
+gen: 85 min: -14.4275921278 pop: 300 dev: 7.3500e-02 seed: 631801  #evals:  872642  Total Time:    33.04
+ _Gen0085 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  872642   10
+
+  CLUSTERING 133 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  118    0  -1.00       -14.428      -13.568      -12.735  0.354 [0, 1, 2....31, 132]
+     1   15    7  -1.00       -13.314      -12.451      -12.889  0.311 [7, 6, 8....18, 125]
+   CEDiff 0.034669 maxEDIFF 0.035 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 169
+ 
+Mutation Rate 0.2050
+
+gen: 86 min: -14.4275921278 pop: 300 dev: 7.4098e-02 seed: 631801  #evals:  879623  Total Time:    33.30
+ _Gen0086 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  879623   10
+
+  CLUSTERING 133 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  121    0  -1.00       -14.428      -13.568      -12.810  0.415 [0, 1, 2....31, 132]
+     1   12   10  -1.00       -13.314      -12.451      -12.834  0.300 [10, 8, ....09, 122]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 169
+ 
+Mutation Rate 0.2092
+
+gen: 87 min: -14.4275921278 pop: 300 dev: 7.5674e-02 seed: 631801  #evals:  886531  Total Time:    33.55
+ _Gen0087 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  886531   10
+
+  CLUSTERING 139 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  132    0  -1.00       -14.428      -13.568      -12.787  0.373 [0, 1, 2....37, 138]
+     1    7   11  -1.00       -13.314      -12.451      -13.076  0.284 [11, 9, ....34, 130]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 163
+ 
+Mutation Rate 0.2072
+
+gen: 88 min: -14.4275921278 pop: 300 dev: 8.5427e-02 seed: 631801  #evals:  893495  Total Time:    33.81
+ _Gen0088 Score: -14.428 LL:  -0.859 LR: -10.947 RR:  -2.622 evals:  893495   10
+
+  CLUSTERING 132 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  116    0  -1.00       -14.428      -13.568      -12.763  0.343 [0, 1, 2....30, 131]
+     1   16    8  -1.00       -13.314      -12.451      -13.079  0.347 [8, 7, 9....25, 126]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 170
+  
+  (  0)       DMI:      -14.428 ->      -14.447*** (   3)
+
+Mutation Rate 0.2018
+
+gen: 89 min: -14.4465648648 pop: 300 dev: 8.1687e-02 seed: 631801  #evals:  930922  Total Time:    34.89
+ _Gen0089 Score: -14.447 LL:  -0.858 LR: -10.966 RR:  -2.622 evals:  930922   10
+
+  CLUSTERING 128 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  111    0  -1.00       -14.447      -13.588      -12.769  0.334 [0, 1, 2....26, 127]
+     1   17    6  -1.00       -13.314      -12.451      -12.671  0.202 [6, 18, ....15, 121]
+   CEDiff 0.018973 maxEDIFF 0.019 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 174
+ 
+Mutation Rate 0.2050
+
+gen: 90 min: -14.4465648648 pop: 300 dev: 4.9887e-02 seed: 631801  #evals:  938178  Total Time:    35.16
+ _Gen0090 Score: -14.447 LL:  -0.858 LR: -10.966 RR:  -2.622 evals:  938178   10
+
+  CLUSTERING 152 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  138    0  -1.00       -14.447      -13.588      -12.760  0.263 [0, 1, 2....50, 151]
+     1   14    4  -1.00       -13.314      -12.451      -12.613  0.204 [4, 62, ....40, 141]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 150
+ 
+Mutation Rate 0.2024
+
+gen: 91 min: -14.4465648648 pop: 300 dev: 6.5004e-02 seed: 631801  #evals:  945646  Total Time:    35.43
+ _Gen0091 Score: -14.447 LL:  -0.858 LR: -10.966 RR:  -2.622 evals:  945646   10
+
+  CLUSTERING 159 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  154    0  -1.00       -14.447      -13.588      -12.856  0.436 [0, 1, 2....57, 158]
+     1    5   12  -1.00       -13.355      -12.492      -12.998  0.404 [12, 14,....42, 143]
+   CEDiff 0.041672 maxEDIFF 0.042 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 143
+ 
+Mutation Rate 0.2036
+
+gen: 92 min: -14.4465648648 pop: 300 dev: 6.6919e-02 seed: 631801  #evals:  952821  Total Time:    35.70
+ _Gen0092 Score: -14.447 LL:  -0.858 LR: -10.966 RR:  -2.622 evals:  952821   10
+
+  CLUSTERING 159 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  144    0  -1.00       -14.447      -13.588      -12.802  0.389 [0, 1, 2....57, 158]
+     1   15    7  -1.00       -13.502      -12.674      -12.991  0.377 [7, 6, 8....42, 143]
+   CEDiff 0.146396 maxEDIFF 0.146 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 143
+ 
+Mutation Rate 0.2014
+
+gen: 93 min: -14.4465648648 pop: 300 dev: 9.0084e-02 seed: 631801  #evals:  959774  Total Time:    35.96
+ _Gen0093 Score: -14.447 LL:  -0.858 LR: -10.966 RR:  -2.622 evals:  959774   10
+
+  CLUSTERING 154 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  139    0  -1.00       -14.447      -13.588      -12.800  0.390 [0, 1, 2....51, 152]
+     1   15    7  -1.00       -13.502      -12.674      -12.826  0.331 [7, 9, 1....49, 153]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 148
+ 
+Mutation Rate 0.2075
+
+gen: 94 min: -14.4465648648 pop: 300 dev: 7.1960e-02 seed: 631801  #evals:  966844  Total Time:    36.22
+ _Gen0094 Score: -14.447 LL:  -0.858 LR: -10.966 RR:  -2.622 evals:  966844   10
+
+  CLUSTERING 127 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  106    0  -1.00       -14.447      -13.588      -12.807  0.353 [0, 1, 2....25, 126]
+     1   21    5  -1.00       -13.502      -12.674      -12.640  0.239 [5, 19, ....18, 119]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 175
+ 
+Mutation Rate 0.2025
+
+gen: 95 min: -14.4465648648 pop: 300 dev: 7.9014e-02 seed: 631801  #evals:  973798  Total Time:    36.48
+ _Gen0095 Score: -14.447 LL:  -0.858 LR: -10.966 RR:  -2.622 evals:  973798   10
+
+  CLUSTERING 122 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  108    0  -1.00       -14.447      -13.588      -12.765  0.406 [0, 1, 2....20, 121]
+     1   14    7  -1.00       -13.502      -12.674      -12.663  0.263 [7, 17, ....11, 114]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 180
+  
+  (  0)      MMI:      -14.447 ->      -14.462*** (   3)
+
+Mutation Rate 0.2026
+
+gen: 96 min: -14.4615037113 pop: 300 dev: 9.4024e-02 seed: 631801  #evals: 1011799  Total Time:    37.57
+ _Gen0096 Score: -14.462 LL:  -0.854 LR: -10.986 RR:  -2.622 evals: 1011799   10
+
+  CLUSTERING 134 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  117    0  -1.00       -14.462      -13.607      -12.801  0.345 [0, 1, 3....30, 131]
+     1   17    2  -1.00       -13.892      -13.063      -12.786  0.460 [2, 6, 7....32, 133]
+   CEDiff 0.405126 maxEDIFF 0.390 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 168
+ 
+Mutation Rate 0.2014
+
+gen: 97 min: -14.4615037113 pop: 300 dev: 1.0773e-01 seed: 631801  #evals: 1019032  Total Time:    37.84
+ _Gen0097 Score: -14.462 LL:  -0.854 LR: -10.986 RR:  -2.622 evals: 1019032   10
+
+  CLUSTERING 136 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  116    0  -1.00       -14.462      -13.607      -12.810  0.351 [0, 1, 2....33, 135]
+     1   20    3  -1.00       -14.148      -13.383      -12.821  0.510 [3, 4, 5....28, 134]
+   CEDiff 0.255834 maxEDIFF 0.256 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 166
+ 
+Mutation Rate 0.2032
+
+gen: 98 min: -14.4615037113 pop: 300 dev: 1.3644e-01 seed: 631801  #evals: 1026319  Total Time:    38.11
+ _Gen0098 Score: -14.462 LL:  -0.854 LR: -10.986 RR:  -2.622 evals: 1026319   10
+
+  CLUSTERING 118 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   82    0  -1.00       -14.462      -13.607      -12.819  0.405 [0, 1, 2....14, 117]
+     1   36    5  -1.00       -14.148      -13.383      -12.851  0.460 [5, 4, 6....15, 116]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 184
+ 
+Mutation Rate 0.2040
+
+gen: 99 min: -14.4615037113 pop: 300 dev: 1.0704e-01 seed: 631801  #evals: 1033889  Total Time:    38.38
+ _Gen0099 Score: -14.462 LL:  -0.854 LR: -10.986 RR:  -2.622 evals: 1033889   10
+
+  CLUSTERING 117 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   73    0  -1.00       -14.462      -13.607      -12.855  0.377 [0, 1, 2....12, 113]
+     1   44    3  -1.00       -14.148      -13.383      -12.833  0.494 [3, 4, 5....15, 116]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 185
+ 
+Mutation Rate 0.2011
+
+gen: 100 min: -14.4615037113 pop: 300 dev: 1.2593e-01 seed: 631801  #evals: 1041220  Total Time:    38.64
+ _Gen0100 Score: -14.462 LL:  -0.854 LR: -10.986 RR:  -2.622 evals: 1041220   10
+
+  CLUSTERING 144 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   83    0  -1.00       -14.462      -13.607      -12.813  0.348 [0, 1, 4....37, 143]
+     1   61    2  -1.00       -14.148      -13.383      -12.670  0.290 [2, 3, 7....41, 142]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 158
+  
+  (  0)       DMI:      -14.462 ->      -14.487*** (   3)
+
+Mutation Rate 0.2050
+
+gen: 101 min: -14.4871134756 pop: 300 dev: 5.1367e-02 seed: 631801  #evals: 1077162  Total Time:    39.65
+ _Gen0101 Score: -14.487 LL:  -0.843 LR: -11.022 RR:  -2.622 evals: 1077162   10
+
+  CLUSTERING 129 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   42    0  -1.00       -14.487      -13.644      -12.846  0.386 [0, 1, 9....93, 121]
+     1   87    3  -1.00       -14.148      -13.383      -12.767  0.361 [3, 2, 4....27, 128]
+   CEDiff 0.025610 maxEDIFF 0.026 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 173
+ 
+Mutation Rate 0.2031
+
+gen: 102 min: -14.4871134756 pop: 300 dev: 1.0693e-01 seed: 631801  #evals: 1084024  Total Time:    39.90
+ _Gen0102 Score: -14.487 LL:  -0.843 LR: -11.022 RR:  -2.622 evals: 1084024   10
+
+  CLUSTERING 135 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   35    0  -1.00       -14.487      -13.644      -12.856  0.516 [0, 1, 2....31, 133]
+     1  100    3  -1.00       -14.148      -13.383      -12.703  0.236 [3, 4, 5....32, 134]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 167
+ 
+Mutation Rate 0.2014
+
+gen: 103 min: -14.4871134756 pop: 300 dev: 1.0165e-01 seed: 631801  #evals: 1091000  Total Time:    40.16
+ _Gen0103 Score: -14.487 LL:  -0.843 LR: -11.022 RR:  -2.622 evals: 1091000   10
+
+  CLUSTERING 145 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   35    0  -1.00       -14.487      -13.644      -12.951  0.581 [0, 1, 2....29, 131]
+     1  110    4  -1.00       -14.148      -13.383      -12.705  0.199 [4, 7, 1....43, 144]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 157
+ 
+Mutation Rate 0.2065
+
+gen: 104 min: -14.4871134756 pop: 300 dev: 9.5613e-02 seed: 631801  #evals: 1098217  Total Time:    40.42
+ _Gen0104 Score: -14.487 LL:  -0.843 LR: -11.022 RR:  -2.622 evals: 1098217   10
+
+  CLUSTERING 151 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   48    0  -1.00       -14.487      -13.644      -12.824  0.408 [0, 1, 1....37, 145]
+     1  103    2  -1.00       -14.148      -13.383      -12.778  0.386 [2, 3, 4....49, 150]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 151
+  
+  (  0)       DMI:      -14.487 ->      -14.502*** (   3)
+
+Mutation Rate 0.1982
+
+gen: 105 min: -14.5019272226 pop: 300 dev: 1.2620e-01 seed: 631801  #evals: 1133380  Total Time:    41.41
+ _Gen0105 Score: -14.502 LL:  -0.837 LR: -11.044 RR:  -2.622 evals: 1133380   10
+
+  CLUSTERING 141 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   56    0  -1.00       -14.502      -13.665      -12.920  0.510 [0, 1, 2....39, 140]
+     1   85    4  -1.00       -14.186      -13.403      -12.788  0.412 [4, 5, 6....37, 138]
+   CEDiff 0.052905 maxEDIFF 0.038 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 161
+ 
+Mutation Rate 0.2046
+
+gen: 106 min: -14.5019272226 pop: 300 dev: 4.3646e-02 seed: 631801  #evals: 1140188  Total Time:    41.66
+ _Gen0106 Score: -14.502 LL:  -0.837 LR: -11.044 RR:  -2.622 evals: 1140188   10
+
+  CLUSTERING 154 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   36    0  -1.00       -14.502      -13.665      -12.757  0.337 [0, 4, 5....47, 148]
+     1  118    1  -1.00       -14.186      -13.403      -12.696  0.249 [1, 2, 3....52, 153]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 148
+ 
+Mutation Rate 0.2072
+
+gen: 107 min: -14.5019272226 pop: 300 dev: 1.0813e-01 seed: 631801  #evals: 1146922  Total Time:    41.90
+ _Gen0107 Score: -14.502 LL:  -0.837 LR: -11.044 RR:  -2.622 evals: 1146922   10
+
+  CLUSTERING 136 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   37    0  -1.00       -14.502      -13.665      -12.895  0.460 [0, 11, ....14, 133]
+     1   99    2  -1.00       -14.212      -13.424      -12.851  0.489 [2, 1, 3....34, 135]
+   CEDiff 0.026114 maxEDIFF 0.026 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 166
+ 
+Mutation Rate 0.2042
+
+gen: 108 min: -14.5019272226 pop: 300 dev: 4.9517e-02 seed: 631801  #evals: 1153374  Total Time:    42.14
+ _Gen0108 Score: -14.502 LL:  -0.837 LR: -11.044 RR:  -2.622 evals: 1153374   10
+
+  CLUSTERING 147 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   30    0  -1.00       -14.502      -13.665      -12.905  0.557 [0, 1, 4....42, 143]
+     1  117    3  -1.00       -14.212      -13.424      -12.698  0.242 [3, 2, 6....45, 146]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 155
+ 
+Mutation Rate 0.2042
+
+gen: 109 min: -14.5019272226 pop: 300 dev: 7.0852e-02 seed: 631801  #evals: 1160188  Total Time:    42.39
+ _Gen0109 Score: -14.502 LL:  -0.837 LR: -11.044 RR:  -2.622 evals: 1160188   10
+
+  CLUSTERING 170 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   34    0  -1.00       -14.502      -13.665      -13.360  0.637 [0, 1, 2....53, 154]
+     1  136    5  -1.00       -14.240      -13.442      -12.817  0.494 [5, 4, 6....68, 169]
+   CEDiff 0.028379 maxEDIFF 0.028 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 132
+ 
+Mutation Rate 0.2032
+
+gen: 110 min: -14.5019272226 pop: 300 dev: 1.0325e-01 seed: 631801  #evals: 1167249  Total Time:    42.65
+ _Gen0110 Score: -14.502 LL:  -0.837 LR: -11.044 RR:  -2.622 evals: 1167249   10
+
+  CLUSTERING 175 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   23    0  -1.00       -14.502      -13.665      -13.304  0.735 [0, 1, 2....56, 163]
+     1  152    5  -1.00       -14.240      -13.442      -12.761  0.375 [5, 6, 7....73, 174]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 127
+ 
+Mutation Rate 0.2056
+
+gen: 111 min: -14.5019272226 pop: 300 dev: 7.9085e-02 seed: 631801  #evals: 1173890  Total Time:    42.89
+ _Gen0111 Score: -14.502 LL:  -0.837 LR: -11.044 RR:  -2.622 evals: 1173890   10
+
+  CLUSTERING 140 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   27    0  -1.00       -14.502      -13.665      -13.083  0.677 [0, 1, 2....15, 116]
+     1  113    4  -1.00       -14.240      -13.442      -12.670  0.256 [4, 5, 6....38, 139]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 162
+ 
+Mutation Rate 0.1976
+
+gen: 112 min: -14.5019272226 pop: 300 dev: 9.0796e-02 seed: 631801  #evals: 1180647  Total Time:    43.13
+ _Gen0112 Score: -14.502 LL:  -0.837 LR: -11.044 RR:  -2.622 evals: 1180647   10
+
+  CLUSTERING 133 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   19    0  -1.00       -14.502      -13.665      -13.221  0.764 [0, 1, 2....72, 125]
+     1  114    4  -1.00       -14.240      -13.442      -12.675  0.202 [4, 7, 8....31, 132]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 169
+  
+  (  0)       DMI:      -14.502 ->      -14.525*** (   3)
+
+  ( 87,   0) 
+ MUT O1:      -14.525 ->      -14.525 ->      -14.539* (   2) 
+ SMI O1:      -14.525 ->      -14.525 ->      -14.539** (   3) 
+ 
+Mutation Rate 0.2018
+
+gen: 113 min: -14.5393146078 pop: 300 dev: 5.4218e-02 seed: 631801  #evals: 1216402  Total Time:    44.09
+ _Gen0113 Score: -14.539 LL:  -0.836 LR: -11.056 RR:  -2.647 evals: 1216402   11
+
+  CLUSTERING 109 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   36    0  -1.00       -14.539      -13.703      -12.928  0.581 [0, 1, 2....03, 108]
+     1   73    4  -1.00       -14.240      -13.442      -12.731  0.307 [4, 3, 7....06, 107]
+   CEDiff 0.037387 maxEDIFF 0.037 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 193
+ 
+Mutation Rate 0.1982
+
+gen: 114 min: -14.5393146078 pop: 300 dev: 7.2526e-02 seed: 631801  #evals: 1222875  Total Time:    44.32
+ _Gen0114 Score: -14.539 LL:  -0.836 LR: -11.056 RR:  -2.647 evals: 1222875   11
+
+  CLUSTERING 123 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   24    0  -1.00       -14.539      -13.703      -13.108  0.687 [0, 1, 2....18, 119]
+     1   99    4  -1.00       -14.240      -13.442      -12.753  0.349 [4, 3, 5....21, 122]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 179
+ 
+Mutation Rate 0.2017
+
+gen: 115 min: -14.5393146078 pop: 300 dev: 3.3209e-02 seed: 631801  #evals: 1229286  Total Time:    44.55
+ _Gen0115 Score: -14.539 LL:  -0.836 LR: -11.056 RR:  -2.647 evals: 1229286   11
+
+  CLUSTERING 149 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   33    0  -1.00       -14.539      -13.703      -13.076  0.555 [0, 1, 2....22, 138]
+     1  116    4  -1.00       -14.240      -13.442      -12.756  0.325 [4, 3, 5....47, 148]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 153
+ 
+Mutation Rate 0.2074
+
+gen: 116 min: -14.5393146078 pop: 300 dev: 4.7997e-02 seed: 631801  #evals: 1235947  Total Time:    44.79
+ _Gen0116 Score: -14.539 LL:  -0.836 LR: -11.056 RR:  -2.647 evals: 1235947   11
+
+  CLUSTERING 164 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   11    0  -1.00       -14.539      -13.703      -13.501  0.832 [0, 1, 2....60, 161]
+     1  153    4  -1.00       -14.240      -13.442      -12.823  0.433 [4, 5, 6....62, 163]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 138
+  
+  (  0)       DMI:      -14.539 ->      -14.546*** (   3)
+
+  ( 19,   0) 
+ MUT O1:      -14.546 ->      -14.546 ->      -14.549* (   2) 
+ SMI O1:      -14.546 ->      -14.546 ->      -14.549** (   4) 
+ 
+Mutation Rate 0.2044
+
+gen: 117 min: -14.549176264 pop: 300 dev: 3.3657e-02 seed: 631801  #evals: 1264092  Total Time:    45.56
+ _Gen0117 Score: -14.549 LL:  -0.841 LR: -11.062 RR:  -2.647 evals: 1264092   12
+
+  CLUSTERING 157 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   11    0  -1.00       -14.549      -13.709      -13.926  0.798 [0, 1, 2.... 23, 55]
+     1  146    9  -1.00       -14.240      -13.442      -12.752  0.362 [9, 7, 8....55, 156]
+   CEDiff 0.009862 maxEDIFF 0.010 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 145
+ 
+Mutation Rate 0.1990
+
+gen: 118 min: -14.549176264 pop: 300 dev: 4.1534e-02 seed: 631801  #evals: 1270184  Total Time:    45.78
+ _Gen0118 Score: -14.549 LL:  -0.841 LR: -11.062 RR:  -2.647 evals: 1270184   12
+
+  CLUSTERING 183 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    9    0  -1.00       -14.549      -13.709      -14.263  0.322 [0, 1, 2.... 33, 34]
+     1  174    8  -1.00       -14.240      -13.442      -12.903  0.533 [8, 5, 6....81, 182]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 119
+ 
+Mutation Rate 0.2047
+
+gen: 119 min: -14.549176264 pop: 300 dev: 8.4208e-02 seed: 631801  #evals: 1276475  Total Time:    46.01
+ _Gen0119 Score: -14.549 LL:  -0.841 LR: -11.062 RR:  -2.647 evals: 1276475   12
+
+  CLUSTERING 218 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   27    0  -1.00       -14.549      -13.709      -14.212  0.599 [0, 1, 2.... 85, 86]
+     1  191   22  -1.00       -14.248      -13.446      -12.990  0.590 [22, 21,....16, 217]
+   CEDiff 0.007838 maxEDIFF 0.008 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 84
+ 
+Mutation Rate 0.2067
+
+gen: 120 min: -14.549176264 pop: 300 dev: 3.1481e-02 seed: 631801  #evals: 1282888  Total Time:    46.24
+ _Gen0120 Score: -14.549 LL:  -0.841 LR: -11.062 RR:  -2.647 evals: 1282888   12
+
+  CLUSTERING 147 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    3    0  -1.00       -14.549      -13.709      -14.165  0.272 [0, 8, 9]
+     1  144    3  -1.00       -14.248      -13.446      -12.722  0.332 [3, 1, 2....45, 146]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 155
+ 
+Mutation Rate 0.2029
+
+gen: 121 min: -14.549176264 pop: 300 dev: 5.0779e-02 seed: 631801  #evals: 1288899  Total Time:    46.46
+ _Gen0121 Score: -14.549 LL:  -0.841 LR: -11.062 RR:  -2.647 evals: 1288899   12
+
+  CLUSTERING 167 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   12    0  -1.00       -14.549      -13.709      -14.116  0.719 [0, 1, 2....59, 160]
+     1  155   17  -1.00       -14.248      -13.446      -12.899  0.562 [17, 9, ....65, 166]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 135
+  
+  (  0,   1) CRO O1:      -14.155 ->      -14.155  (   2) O2:      -14.582 ->      -14.582* (   2) 
+               SMI O2:      -14.582 ->      -14.602** (   3) 
+ 
+Mutation Rate 0.2028
+
+gen: 122 min: -14.6015184059 pop: 300 dev: 3.3917e-02 seed: 631801  #evals: 1295086  Total Time:    46.68
+ _Gen0122 Score: -14.602 LL:  -0.839 LR: -11.119 RR:  -2.644 evals: 1295086   13
+
+  CLUSTERING 114 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    5    0  -1.00       -14.602      -13.762      -13.822  0.934 [0, 1, 2, 58, 59]
+     1  109    4  -1.00       -14.259      -13.459      -12.821  0.420 [4, 3, 5....12, 113]
+   CEDiff 0.063760 maxEDIFF 0.052 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 188
+ 
+Mutation Rate 0.2044
+
+gen: 123 min: -14.6015184059 pop: 300 dev: 4.7150e-02 seed: 631801  #evals: 1301051  Total Time:    46.90
+ _Gen0123 Score: -14.602 LL:  -0.839 LR: -11.119 RR:  -2.644 evals: 1301051   13
+
+  CLUSTERING 126 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    5    0  -1.00       -14.602      -13.762      -14.602  0.000 [0, 1, 2, 3, 4]
+     1  121    5  -1.00       -14.259      -13.459      -12.844  0.422 [5, 6, 7....24, 125]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 176
+ 
+Mutation Rate 0.2058
+
+gen: 124 min: -14.6015184059 pop: 300 dev: 3.6182e-02 seed: 631801  #evals: 1306994  Total Time:    47.12
+ _Gen0124 Score: -14.602 LL:  -0.839 LR: -11.119 RR:  -2.644 evals: 1306994   13
+
+  CLUSTERING 116 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    5    0  -1.00       -14.602      -13.762      -14.601  0.000 [0, 1, 2, 3, 4]
+     1  111    5  -1.00       -14.299      -13.508      -12.875  0.499 [5, 6, 7....14, 115]
+   CEDiff 0.039418 maxEDIFF 0.039 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 186
+ 
+Mutation Rate 0.2053
+
+gen: 125 min: -14.6015184059 pop: 300 dev: 5.6770e-02 seed: 631801  #evals: 1312929  Total Time:    47.33
+ _Gen0125 Score: -14.602 LL:  -0.839 LR: -11.119 RR:  -2.644 evals: 1312929   13
+
+  CLUSTERING 143 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    7    0  -1.00       -14.602      -13.762      -13.995  0.646 [0, 1, 2.... 24, 25]
+     1  136    6  -1.00       -14.299      -13.508      -12.868  0.458 [6, 3, 4....41, 142]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 159
+ 
+Mutation Rate 0.2031
+
+gen: 126 min: -14.6015184059 pop: 300 dev: 3.5591e-02 seed: 631801  #evals: 1318862  Total Time:    47.54
+ _Gen0126 Score: -14.602 LL:  -0.839 LR: -11.119 RR:  -2.644 evals: 1318862   13
+
+  CLUSTERING 144 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    9    0  -1.00       -14.602      -13.762      -14.104  0.574 [0, 1, 2.... 17, 18]
+     1  135    6  -1.00       -14.299      -13.508      -12.809  0.391 [6, 5, 7....42, 143]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 158
+ 
+Mutation Rate 0.2042
+
+gen: 127 min: -14.6015184059 pop: 300 dev: 4.2169e-02 seed: 631801  #evals: 1324834  Total Time:    47.76
+ _Gen0127 Score: -14.602 LL:  -0.839 LR: -11.119 RR:  -2.644 evals: 1324834   13
+
+  CLUSTERING 168 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   15    0  -1.00       -14.602      -13.762      -14.310  0.577 [0, 1, 2.... 30, 31]
+     1  153   17  -1.00       -14.299      -13.508      -12.863  0.472 [17, 12,....66, 167]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 134
+  
+  (  0)       DMI:      -14.602 ->      -14.618*** (   6)
+
+Mutation Rate 0.2006
+
+gen: 128 min: -14.6179196647 pop: 300 dev: 3.7709e-02 seed: 631801  #evals: 1349867  Total Time:    48.46
+ _Gen0128 Score: -14.618 LL:  -0.836 LR: -11.138 RR:  -2.644 evals: 1349867   13
+
+  CLUSTERING 145 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    9    0  -1.00       -14.618      -13.782      -13.895  0.733 [0, 1, 2.... 48, 49]
+     1  136    8  -1.00       -14.299      -13.508      -12.951  0.502 [8, 5, 6....43, 144]
+   CEDiff 0.016401 maxEDIFF 0.016 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 157
+ 
+Mutation Rate 0.2029
+
+gen: 129 min: -14.6179196647 pop: 300 dev: 4.8321e-02 seed: 631801  #evals: 1356393  Total Time:    48.69
+ _Gen0129 Score: -14.618 LL:  -0.836 LR: -11.138 RR:  -2.644 evals: 1356393   13
+
+  CLUSTERING 165 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   11    0  -1.00       -14.618      -13.782      -14.278  0.709 [0, 1, 2....38, 126]
+     1  154   11  -1.00       -14.299      -13.508      -12.940  0.519 [11, 9, ....63, 164]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 137
+ 
+Mutation Rate 0.2037
+
+gen: 130 min: -14.6179196647 pop: 300 dev: 4.8150e-02 seed: 631801  #evals: 1362596  Total Time:    48.92
+ _Gen0130 Score: -14.618 LL:  -0.836 LR: -11.138 RR:  -2.644 evals: 1362596   13
+
+  CLUSTERING 177 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    4    0  -1.00       -14.618      -13.782      -14.610  0.008 [0, 1, 2, 3]
+     1  173    4  -1.00       -14.299      -13.508      -12.942  0.510 [4, 5, 6....75, 176]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 125
+ 
+Mutation Rate 0.2056
+
+gen: 131 min: -14.6179196647 pop: 300 dev: 5.2312e-02 seed: 631801  #evals: 1368680  Total Time:    49.14
+ _Gen0131 Score: -14.618 LL:  -0.836 LR: -11.138 RR:  -2.644 evals: 1368680   13
+
+  CLUSTERING 159 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    5    0  -1.00       -14.618      -13.782      -13.967  0.797 [0, 1, 2, 18, 19]
+     1  154    5  -1.00       -14.299      -13.508      -12.829  0.394 [5, 3, 4....57, 158]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 143
+  
+  (  0)       DMI:      -14.618 ->      -14.628*** (   3)
+
+Mutation Rate 0.1993
+
+gen: 132 min: -14.6280048546 pop: 300 dev: 7.1296e-02 seed: 631801  #evals: 1396818  Total Time:    49.90
+ _Gen0132 Score: -14.628 LL:  -0.836 LR: -11.149 RR:  -2.644 evals: 1396818   13
+
+  CLUSTERING 162 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    4    0  -1.00       -14.628      -13.792      -14.496  0.127 [0, 1, 2, 3]
+     1  158    7  -1.00       -14.299      -13.508      -12.888  0.437 [7, 4, 5....60, 161]
+   CEDiff 0.010085 maxEDIFF 0.010 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 140
+ 
+Mutation Rate 0.2050
+
+gen: 133 min: -14.6280048546 pop: 300 dev: 7.6353e-02 seed: 631801  #evals: 1402994  Total Time:    50.12
+ _Gen0133 Score: -14.628 LL:  -0.836 LR: -11.149 RR:  -2.644 evals: 1402994   13
+
+  CLUSTERING 152 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    3    0  -1.00       -14.628      -13.792      -14.228  0.283 [0, 7, 8]
+     1  149    2  -1.00       -14.299      -13.508      -12.794  0.309 [2, 1, 3....50, 151]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 150
+ 
+Mutation Rate 0.2011
+
+gen: 134 min: -14.6280048546 pop: 300 dev: 2.3450e-02 seed: 631801  #evals: 1409008  Total Time:    50.34
+ _Gen0134 Score: -14.628 LL:  -0.836 LR: -11.149 RR:  -2.644 evals: 1409008   13
+
+  CLUSTERING 140 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    5    0  -1.00       -14.628      -13.792      -13.617  0.581 [0, 6, 7, 8, 9]
+     1  135    1  -1.00       -14.299      -13.508      -12.765  0.288 [1, 2, 3....38, 139]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 162
+  
+  (  0,  35) CRO O1:      -14.634 ->      -14.634* (   2) O2:      -12.177 ->      -12.177  (   2) 
+               SMI O1:      -14.634 ->      -14.635** (   3) 
+ 
+Mutation Rate 0.2036
+
+gen: 135 min: -14.6345325521 pop: 300 dev: 5.3783e-02 seed: 631801  #evals: 1414948  Total Time:    50.55
+ _Gen0135 Score: -14.635 LL:  -0.826 LR: -11.165 RR:  -2.644 evals: 1414948   14
+
+  CLUSTERING 163 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   10    0  -1.00       -14.635      -13.809      -14.495  0.390 [0, 1, 2...., 8, 37]
+     1  153   10  -1.00       -14.299      -13.508      -12.989  0.559 [10, 9, ....61, 162]
+   CEDiff 0.006528 maxEDIFF 0.007 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 139
+ 
+Mutation Rate 0.2054
+
+gen: 136 min: -14.6345325521 pop: 300 dev: 2.5928e-02 seed: 631801  #evals: 1421007  Total Time:    50.77
+ _Gen0136 Score: -14.635 LL:  -0.826 LR: -11.165 RR:  -2.644 evals: 1421007   14
+
+  CLUSTERING 153 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    3    0  -1.00       -14.635      -13.809      -14.622  0.009 [0, 1, 2]
+     1  150    3  -1.00       -14.299      -13.508      -12.800  0.309 [3, 4, 5....51, 152]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 149
+  
+  ( 32,   0) 
+ MUT O2:      -14.635 ->      -14.635 ->      -14.660* (   3) 
+ SMI O2:      -14.635 ->      -14.660 ->      -14.676** (   9) 
+ 
+Mutation Rate 0.2068
+
+gen: 137 min: -14.6760717654 pop: 300 dev: 6.5083e-02 seed: 631801  #evals: 1427201  Total Time:    50.99
+ _Gen0137 Score: -14.676 LL:  -0.823 LR: -11.203 RR:  -2.650 evals: 1427201   15
+
+  CLUSTERING 105 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   16    0  -1.00       -14.676      -13.853      -14.111  0.595 [0, 1, 2.... 36, 37]
+     1   89    9  -1.00       -14.299      -13.508      -13.067  0.587 [9, 8, 1....03, 104]
+   CEDiff 0.041539 maxEDIFF 0.042 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 197
+ 
+Mutation Rate 0.2004
+
+gen: 138 min: -14.6760717654 pop: 300 dev: 5.0665e-02 seed: 631801  #evals: 1433266  Total Time:    51.20
+ _Gen0138 Score: -14.676 LL:  -0.823 LR: -11.203 RR:  -2.650 evals: 1433266   15
+
+  CLUSTERING 135 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    5    0  -1.00       -14.676      -13.853      -14.264  0.486 [0, 1, 2, 6, 7]
+     1  130    3  -1.00       -14.299      -13.508      -12.808  0.238 [3, 4, 5....33, 134]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 167
+ 
+Mutation Rate 0.1997
+
+gen: 139 min: -14.6760717654 pop: 300 dev: 2.9832e-02 seed: 631801  #evals: 1439407  Total Time:    51.42
+ _Gen0139 Score: -14.676 LL:  -0.823 LR: -11.203 RR:  -2.650 evals: 1439407   15
+
+  CLUSTERING 168 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    5    0  -1.00       -14.676      -13.853      -14.136  0.661 [0, 1, 2, 18, 19]
+     1  163    4  -1.00       -14.299      -13.508      -12.890  0.408 [4, 3, 5....66, 167]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 134
+ 
+Mutation Rate 0.2036
+
+gen: 140 min: -14.6760717654 pop: 300 dev: 9.1078e-02 seed: 631801  #evals: 1445515  Total Time:    51.64
+ _Gen0140 Score: -14.676 LL:  -0.823 LR: -11.203 RR:  -2.650 evals: 1445515   15
+
+  CLUSTERING 170 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   24    0  -1.00       -14.676      -13.853      -14.528  0.246 [0, 1, 2.... 64, 67]
+     1  146   25  -1.00       -14.299      -13.508      -13.204  0.665 [25, 18,....68, 169]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 132
+  
+  (  0)      MMI:      -14.676 ->      -14.689*** (   3)
+
+Mutation Rate 0.2094
+
+gen: 141 min: -14.6893537217 pop: 300 dev: 2.3636e-02 seed: 631801  #evals: 1470407  Total Time:    52.33
+ _Gen0141 Score: -14.689 LL:  -0.823 LR: -11.216 RR:  -2.650 evals: 1470407   15
+
+  CLUSTERING 128 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    4    0  -1.00       -14.689      -13.866      -14.668  0.015 [0, 1, 2, 3]
+     1  124    4  -1.00       -14.299      -13.508      -12.813  0.256 [4, 5, 6....26, 127]
+   CEDiff 0.013282 maxEDIFF 0.013 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 174
+  
+  (  0,  90) CRO O1:      -14.692 ->      -14.692* (   2) O2:      -12.654 ->      -12.654  (   2) 
+               SMI O1:      -14.692 ->      -14.698** (   3) 
+ 
+Mutation Rate 0.2121
+
+gen: 142 min: -14.698450502 pop: 300 dev: 4.5448e-02 seed: 631801  #evals: 1476186  Total Time:    52.53
+ _Gen0142 Score: -14.698 LL:  -0.821 LR: -11.227 RR:  -2.650 evals: 1476186   16
+
+  CLUSTERING 155 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   19    0  -1.00       -14.698      -13.877      -13.990  0.647 [0, 1, 2.... 55, 56]
+     1  136   15  -1.00       -14.299      -13.508      -13.170  0.644 [15, 8, ....53, 154]
+   CEDiff 0.009097 maxEDIFF 0.009 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 147
+  
+  (  1,   0) CRO O1:      -14.289 ->      -14.289  (   2) O2:      -14.712 ->      -14.712* (   2) 
+               SMI O2:      -14.712 ->      -14.722** (   3) 
+ 
+Mutation Rate 0.2044
+
+gen: 143 min: -14.7219249064 pop: 300 dev: 1.5211e-01 seed: 631801  #evals: 1482639  Total Time:    52.76
+ _Gen0143 Score: -14.722 LL:  -0.821 LR: -11.230 RR:  -2.671 evals: 1482639   17
+
+  CLUSTERING 153 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   39    0  -1.00       -14.722      -13.901      -14.374  0.561 [0, 1, 2....10, 111]
+     1  114   30  -1.00       -14.299      -13.508      -13.716  0.679 [30, 29,....51, 152]
+   CEDiff 0.023525 maxEDIFF 0.023 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 149
+ 
+Mutation Rate 0.2004
+
+gen: 144 min: -14.7219249064 pop: 300 dev: 5.9917e-02 seed: 631801  #evals: 1488414  Total Time:    52.97
+ _Gen0144 Score: -14.722 LL:  -0.821 LR: -11.230 RR:  -2.671 evals: 1488414   17
+
+  CLUSTERING 88 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    1    0  -1.00       -14.722      -13.901      -14.722  0.000 [0]
+     1   87    1  -1.00       -14.299      -13.508      -12.904  0.357 [1, 2, 3.... 86, 87]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 214
+ 
+Mutation Rate 0.2024
+
+gen: 145 min: -14.7219249064 pop: 300 dev: 2.3482e-02 seed: 631801  #evals: 1494507  Total Time:    53.19
+ _Gen0145 Score: -14.722 LL:  -0.821 LR: -11.230 RR:  -2.671 evals: 1494507   17
+
+  CLUSTERING 124 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    1    0  -1.00       -14.722      -13.901      -14.722  0.000 [0]
+     1  123    1  -1.00       -14.307      -13.518      -12.883  0.328 [1, 2, 3....22, 123]
+   CEDiff 0.007932 maxEDIFF 0.008 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 178
+ 
+Mutation Rate 0.2022
+
+gen: 146 min: -14.7219249064 pop: 300 dev: 3.9112e-02 seed: 631801  #evals: 1500332  Total Time:    53.39
+ _Gen0146 Score: -14.722 LL:  -0.821 LR: -11.230 RR:  -2.671 evals: 1500332   17
+
+  CLUSTERING 118 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   12    0  -1.00       -14.722      -13.901      -13.478  0.566 [0, 1, 1.... 27, 28]
+     1  106    3  -1.00       -14.307      -13.518      -12.973  0.496 [3, 2, 4....16, 117]
+   CEDiff 0.000497 maxEDIFF 0.000 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 184
+ 
+Mutation Rate 0.2018
+
+gen: 147 min: -14.7219249064 pop: 300 dev: 3.0055e-02 seed: 631801  #evals: 1506205  Total Time:    53.61
+ _Gen0147 Score: -14.722 LL:  -0.821 LR: -11.230 RR:  -2.671 evals: 1506205   17
+
+  CLUSTERING 143 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    3    0  -1.00       -14.722      -13.901      -14.721  0.001 [0, 1, 2]
+     1  140    4  -1.00       -14.307      -13.518      -12.931  0.431 [4, 3, 5....41, 142]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 159
+ 
+Mutation Rate 0.2031
+
+gen: 148 min: -14.7219249064 pop: 300 dev: 9.1660e-02 seed: 631801  #evals: 1512158  Total Time:    53.82
+ _Gen0148 Score: -14.722 LL:  -0.821 LR: -11.230 RR:  -2.671 evals: 1512158   17
+
+  CLUSTERING 141 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    7    0  -1.00       -14.722      -13.901      -14.347  0.626 [0, 1, 2.... 21, 25]
+     1  134    5  -1.00       -14.314      -13.519      -12.955  0.470 [5, 6, 7....39, 140]
+   CEDiff 0.006856 maxEDIFF 0.007 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 161
+ 
+Mutation Rate 0.2032
+
+gen: 149 min: -14.7219249064 pop: 300 dev: 3.6202e-02 seed: 631801  #evals: 1517999  Total Time:    54.03
+ _Gen0149 Score: -14.722 LL:  -0.821 LR: -11.230 RR:  -2.671 evals: 1517999   17
+
+  CLUSTERING 124 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    3    0  -1.00       -14.722      -13.901      -14.722  0.000 [0, 1, 2]
+     1  121    3  -1.00       -14.314      -13.519      -12.847  0.286 [3, 4, 5....22, 123]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 178
+ 
+Mutation Rate 0.2062
+
+gen: 150 min: -14.7219249064 pop: 300 dev: 2.1857e-02 seed: 631801  #evals: 1523715  Total Time:    54.24
+ _Gen0150 Score: -14.722 LL:  -0.821 LR: -11.230 RR:  -2.671 evals: 1523715   17
+
+  CLUSTERING 128 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    4    0  -1.00       -14.722      -13.901      -14.155  0.567 [0, 1, 5, 6]
+     1  124    2  -1.00       -14.314      -13.519      -12.823  0.231 [2, 3, 4....26, 127]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 174
+ 
+Mutation Rate 0.2089
+
+gen: 151 min: -14.7219249064 pop: 300 dev: 7.9221e-02 seed: 631801  #evals: 1529526  Total Time:    54.44
+ _Gen0151 Score: -14.722 LL:  -0.821 LR: -11.230 RR:  -2.671 evals: 1529526   17
+
+  CLUSTERING 133 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   10    0  -1.00       -14.722      -13.901      -14.196  0.747 [0, 1, 2.... 21, 41]
+     1  123   10  -1.00       -14.314      -13.519      -12.922  0.452 [10, 7, ....31, 132]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 169
+  
+  (  0)      MMI:      -14.722 ->      -14.723*** (   3)
+
+Mutation Rate 0.2056
+
+gen: 152 min: -14.7225678907 pop: 300 dev: 2.4372e-02 seed: 631801  #evals: 1554624  Total Time:    55.13
+ _Gen0152 Score: -14.723 LL:  -0.821 LR: -11.231 RR:  -2.671 evals: 1554624   17
+
+  CLUSTERING 139 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    4    0  -1.00       -14.723      -13.902      -14.722  0.000 [0, 1, 2, 3]
+     1  135    4  -1.00       -14.314      -13.519      -12.834  0.289 [4, 5, 6....37, 138]
+   CEDiff 0.000643 maxEDIFF 0.001 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 163
+ 
+Mutation Rate 0.2097
+
+gen: 153 min: -14.7225678907 pop: 300 dev: 1.1044e-01 seed: 631801  #evals: 1560377  Total Time:    55.34
+ _Gen0153 Score: -14.723 LL:  -0.821 LR: -11.231 RR:  -2.671 evals: 1560377   17
+
+  CLUSTERING 222 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   57    0  -1.00       -14.723      -13.902      -14.378  0.578 [0, 1, 2....58, 159]
+     1  165   43  -1.00       -14.357      -13.567      -13.670  0.696 [43, 44,....20, 221]
+   CEDiff 0.042916 maxEDIFF 0.043 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 80
+ 
+Mutation Rate 0.2019
+
+gen: 154 min: -14.7225678907 pop: 300 dev: 5.0790e-02 seed: 631801  #evals: 1566427  Total Time:    55.56
+ _Gen0154 Score: -14.723 LL:  -0.821 LR: -11.231 RR:  -2.671 evals: 1566427   17
+
+  CLUSTERING 157 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    7    0  -1.00       -14.723      -13.902      -13.453  0.806 [0, 1, 1.... 29, 67]
+     1  150    3  -1.00       -14.357      -13.567      -12.903  0.400 [3, 2, 4....55, 156]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 145
+ 
+Mutation Rate 0.2010
+
+gen: 155 min: -14.7225678907 pop: 300 dev: 3.0573e-02 seed: 631801  #evals: 1572171  Total Time:    55.76
+ _Gen0155 Score: -14.723 LL:  -0.821 LR: -11.231 RR:  -2.671 evals: 1572171   17
+
+  CLUSTERING 144 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0    6    0  -1.00       -14.723      -13.902      -14.656  0.065 [0, 1, 2, 3, 4, 5]
+     1  138    6  -1.00       -14.357      -13.567      -12.830  0.275 [6, 7, 8....42, 143]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 158
+ 
+Mutation Rate 0.2050
+
+gen: 156 min: -14.7225678907 pop: 300 dev: 4.2203e-02 seed: 631801  #evals: 1578203  Total Time:    55.99
+ _Gen0156 Score: -14.723 LL:  -0.821 LR: -11.231 RR:  -2.671 evals: 1578203   17
+
+  CLUSTERING 141 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   10    0  -1.00       -14.723      -13.902      -14.380  0.578 [0, 1, 2.... 30, 31]
+     1  131    9  -1.00       -14.357      -13.567      -13.023  0.513 [9, 8, 1....39, 140]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 161
+  
+  (  0)      MMI:      -14.723 ->      -14.723*** (   3)
+
+Mutation Rate 0.2017
+
+gen: 157 min: -14.7233925614 pop: 300 dev: 3.3014e-02 seed: 631801  #evals: 1598724  Total Time:    56.57
+ _Gen0157 Score: -14.723 LL:  -0.819 LR: -11.234 RR:  -2.671 evals: 1598724   17
+
+  CLUSTERING 131 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   11    0  -1.00       -14.723      -13.905      -14.374  0.598 [0, 1, 2.... 20, 22]
+     1  120   11  -1.00       -14.357      -13.567      -12.902  0.409 [11, 9, ....29, 130]
+   CEDiff 0.000825 maxEDIFF 0.001 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 171
+ 
+Mutation Rate 0.2025
+
+gen: 158 min: -14.7233925614 pop: 300 dev: 1.8199e-01 seed: 631801  #evals: 1603478  Total Time:    56.74
+ _Gen0158 Score: -14.723 LL:  -0.819 LR: -11.234 RR:  -2.671 evals: 1603478   17
+
+  CLUSTERING 280 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  173    0  -1.00       -14.723      -13.905      -14.648  0.105 [0, 1, 2....78, 279]
+     1  107  163  -1.00       -14.419      -13.627      -14.361  0.009 [163, 16....68, 269]
+   CEDiff 0.061607 maxEDIFF 0.062 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 22
+ 
+Mutation Rate 0.2024
+
+gen: 159 min: -14.7233925614 pop: 300 dev: 1.2965e-01 seed: 631801  #evals: 1610645  Total Time:    56.99
+ _Gen0159 Score: -14.723 LL:  -0.819 LR: -11.234 RR:  -2.671 evals: 1610645   17
+
+  CLUSTERING 50 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   23    0  -1.00       -14.723      -13.905      -14.308  0.703 [0, 1, 2.... 46, 47]
+     1   27   21  -1.00       -14.422      -13.638      -14.004  0.557 [21, 18,.... 48, 49]
+   CEDiff 0.003676 maxEDIFF 0.004 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 252
+ 
+Mutation Rate 0.2062
+
+gen: 160 min: -14.7233925614 pop: 300 dev: 8.7975e-02 seed: 631801  #evals: 1617961  Total Time:    57.24
+ _Gen0160 Score: -14.723 LL:  -0.819 LR: -11.234 RR:  -2.671 evals: 1617961   17
+
+  CLUSTERING 56 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   39    0  -1.00       -14.723      -13.905      -13.200  0.489 [0, 4, 5.... 54, 55]
+     1   17    1  -1.00       -14.422      -13.638      -13.460  0.515 [1, 2, 3.... 39, 50]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 246
+ 
+Mutation Rate 0.2037
+
+gen: 161 min: -14.7233925614 pop: 300 dev: 6.3144e-02 seed: 631801  #evals: 1625259  Total Time:    57.49
+ _Gen0161 Score: -14.723 LL:  -0.819 LR: -11.234 RR:  -2.671 evals: 1625259   17
+
+  CLUSTERING 88 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   64    0  -1.00       -14.723      -13.905      -13.130  0.414 [0, 6, 7.... 86, 87]
+     1   24    2  -1.00       -14.439      -13.651      -13.546  0.535 [2, 1, 3.... 83, 85]
+   CEDiff 0.016963 maxEDIFF 0.017 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 214
+ 
+Mutation Rate 0.2057
+
+gen: 162 min: -14.7233925614 pop: 300 dev: 7.4754e-02 seed: 631801  #evals: 1632309  Total Time:    57.73
+ _Gen0162 Score: -14.723 LL:  -0.819 LR: -11.234 RR:  -2.671 evals: 1632309   17
+
+  CLUSTERING 122 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0   81    0  -1.00       -14.723      -13.905      -13.108  0.441 [0, 1, 2....20, 121]
+     1   41    5  -1.00       -14.439      -13.651      -13.333  0.394 [5, 4, 6.... 94, 95]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 180
+ 
+Mutation Rate 0.2010
+
+gen: 163 min: -14.7233925614 pop: 300 dev: 4.2661e-02 seed: 631801  #evals: 1639318  Total Time:    57.98
+ _Gen0163 Score: -14.723 LL:  -0.819 LR: -11.234 RR:  -2.671 evals: 1639318   17
+
+  CLUSTERING 132 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  114    0  -1.00       -14.723      -13.905      -13.102  0.399 [0, 1, 2....30, 131]
+     1   18    6  -1.00       -14.442      -13.656      -13.339  0.632 [6, 5, 7....27, 128]
+   CEDiff 0.002981 maxEDIFF 0.003 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 170
+ 
+Mutation Rate 0.2042
+
+gen: 164 min: -14.7233925614 pop: 300 dev: 4.4850e-02 seed: 631801  #evals: 1646130  Total Time:    58.21
+ _Gen0164 Score: -14.723 LL:  -0.819 LR: -11.234 RR:  -2.671 evals: 1646130   17
+
+  CLUSTERING 151 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  118    0  -1.00       -14.723      -13.905      -13.039  0.277 [0, 10, ....49, 150]
+     1   33    2  -1.00       -14.442      -13.656      -13.450  0.590 [2, 1, 3....23, 124]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 151
+ 
+Mutation Rate 0.2036
+
+gen: 165 min: -14.7233925614 pop: 300 dev: 3.8390e-02 seed: 631801  #evals: 1652738  Total Time:    58.45
+ _Gen0165 Score: -14.723 LL:  -0.819 LR: -11.234 RR:  -2.671 evals: 1652738   17
+
+  CLUSTERING 153 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  140    0  -1.00       -14.723      -13.905      -13.049  0.391 [0, 1, 2....51, 152]
+     1   13    7  -1.00       -14.442      -13.656      -13.559  0.673 [7, 5, 6....02, 149]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 149
+ 
+Mutation Rate 0.2019
+
+gen: 166 min: -14.7233925614 pop: 300 dev: 3.5830e-02 seed: 631801  #evals: 1659217  Total Time:    58.67
+ _Gen0166 Score: -14.723 LL:  -0.819 LR: -11.234 RR:  -2.671 evals: 1659217   17
+
+  CLUSTERING 176 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  156    0  -1.00       -14.723      -13.905      -13.020  0.327 [0, 1, 2....74, 175]
+     1   20    6  -1.00       -14.442      -13.656      -13.522  0.654 [6, 3, 4....46, 169]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 126
+  
+  (  0)       DMI:      -14.723 ->      -14.730*** (   3)
+
+  (  1,   0) CRO O1:      -14.730 ->      -14.730* (   2) O2:      -14.442 ->      -14.442  (   2) 
+               SMI O1:      -14.730 ->      -14.730** (   3) 
+ 
+Mutation Rate 0.2075
+
+gen: 167 min: -14.729692325 pop: 300 dev: 4.0090e-02 seed: 631801  #evals: 1682575  Total Time:    59.32
+ _Gen0167 Score: -14.730 LL:  -0.819 LR: -11.239 RR:  -2.671 evals: 1682575   18
+
+  CLUSTERING 179 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  161    0  -1.00       -14.730      -13.910      -13.073  0.421 [0, 1, 2....77, 178]
+     1   18    8  -1.00       -14.442      -13.656      -13.552  0.641 [8, 7, 9....26, 127]
+   CEDiff 0.006300 maxEDIFF 0.006 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 123
+ 
+Mutation Rate 0.2057
+
+gen: 168 min: -14.729692325 pop: 300 dev: 4.4890e-02 seed: 631801  #evals: 1689351  Total Time:    59.56
+ _Gen0168 Score: -14.730 LL:  -0.819 LR: -11.239 RR:  -2.671 evals: 1689351   18
+
+  CLUSTERING 166 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  148    0  -1.00       -14.730      -13.910      -13.037  0.373 [0, 1, 2....64, 165]
+     1   18    8  -1.00       -14.442      -13.656      -13.789  0.624 [8, 4, 5.... 95, 99]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 136
+ 
+Mutation Rate 0.2057
+
+gen: 169 min: -14.729692325 pop: 300 dev: 3.0977e-02 seed: 631801  #evals: 1696037  Total Time:    59.79
+ _Gen0169 Score: -14.730 LL:  -0.819 LR: -11.239 RR:  -2.671 evals: 1696037   18
+
+  CLUSTERING 177 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  144    0  -1.00       -14.730      -13.910      -12.986  0.267 [0, 1, 1....74, 176]
+     1   33    3  -1.00       -14.442      -13.656      -13.422  0.444 [3, 2, 4....65, 175]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 125
+ 
+Mutation Rate 0.2028
+
+gen: 170 min: -14.729692325 pop: 300 dev: 4.5965e-02 seed: 631801  #evals: 1702643  Total Time:    60.03
+ _Gen0170 Score: -14.730 LL:  -0.819 LR: -11.239 RR:  -2.671 evals: 1702643   18
+
+  CLUSTERING 199 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  182    0  -1.00       -14.730      -13.910      -13.047  0.308 [0, 1, 2....97, 198]
+     1   17    6  -1.00       -14.442      -13.656      -13.642  0.622 [6, 3, 4....23, 136]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 103
+  
+  (  0)      MMI:      -14.730 ->      -14.754*** (   3)
+
+Mutation Rate 0.2008
+
+gen: 171 min: -14.7543828878 pop: 300 dev: 4.8543e-02 seed: 631801  #evals: 1727453  Total Time:    60.71
+ _Gen0171 Score: -14.754 LL:  -0.820 LR: -11.264 RR:  -2.671 evals: 1727453   18
+
+  CLUSTERING 163 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  150    0  -1.00       -14.754      -13.935      -13.166  0.489 [0, 1, 2....61, 162]
+     1   13   12  -1.00       -14.442      -13.656      -13.352  0.516 [12, 11,....09, 151]
+   CEDiff 0.024691 maxEDIFF 0.025 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 139
+ 
+Mutation Rate 0.2033
+
+gen: 172 min: -14.7543828878 pop: 300 dev: 3.1211e-02 seed: 631801  #evals: 1734005  Total Time:    60.94
+ _Gen0172 Score: -14.754 LL:  -0.820 LR: -11.264 RR:  -2.671 evals: 1734005   18
+
+  CLUSTERING 168 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  153    0  -1.00       -14.754      -13.935      -13.054  0.365 [0, 1, 2....66, 167]
+     1   15    4  -1.00       -14.442      -13.656      -13.292  0.501 [4, 5, 6....18, 131]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 134
+ 
+Mutation Rate 0.2024
+
+gen: 173 min: -14.7543828878 pop: 300 dev: 4.8538e-02 seed: 631801  #evals: 1741076  Total Time:    61.19
+ _Gen0173 Score: -14.754 LL:  -0.820 LR: -11.264 RR:  -2.671 evals: 1741076   18
+
+  CLUSTERING 186 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  154    0  -1.00       -14.754      -13.935      -13.065  0.363 [0, 1, 2....84, 185]
+     1   32    5  -1.00       -14.442      -13.656      -13.370  0.570 [5, 6, 7....78, 180]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 116
+ 
+Mutation Rate 0.2118
+
+gen: 174 min: -14.7543828878 pop: 300 dev: 2.9650e-02 seed: 631801  #evals: 1747625  Total Time:    61.42
+ _Gen0174 Score: -14.754 LL:  -0.820 LR: -11.264 RR:  -2.671 evals: 1747625   18
+
+  CLUSTERING 177 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  165    0  -1.00       -14.754      -13.935      -13.014  0.284 [0, 1, 2....75, 176]
+     1   12    3  -1.00       -14.442      -13.656      -13.745  0.546 [3, 4, 5.... 50, 51]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 125
+  
+  (  0)      MMI:      -14.754 ->      -14.780*** (   3)
+
+Mutation Rate 0.1979
+
+gen: 175 min: -14.7801271345 pop: 300 dev: 4.1133e-02 seed: 631801  #evals: 1773495  Total Time:    62.13
+ _Gen0175 Score: -14.780 LL:  -0.821 LR: -11.275 RR:  -2.683 evals: 1773495   18
+
+  CLUSTERING 174 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  163    0  -1.00       -14.780      -13.959      -13.099  0.443 [0, 1, 2....72, 173]
+     1   11   10  -1.00       -14.442      -13.656      -13.703  0.714 [10, 8, ....37, 153]
+   CEDiff 0.025744 maxEDIFF 0.026 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 128
+ 
+Mutation Rate 0.2092
+
+gen: 176 min: -14.7801271345 pop: 300 dev: 2.8247e-02 seed: 631801  #evals: 1779997  Total Time:    62.35
+ _Gen0176 Score: -14.780 LL:  -0.821 LR: -11.275 RR:  -2.683 evals: 1779997   18
+
+  CLUSTERING 164 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  156    0  -1.00       -14.780      -13.959      -13.037  0.343 [0, 1, 2....62, 163]
+     1    8    7  -1.00       -14.442      -13.656      -13.784  0.669 [7, 4, 5....35, 125]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 138
+ 
+Mutation Rate 0.2031
+
+gen: 177 min: -14.7801271345 pop: 300 dev: 3.0748e-02 seed: 631801  #evals: 1786573  Total Time:    62.59
+ _Gen0177 Score: -14.780 LL:  -0.821 LR: -11.275 RR:  -2.683 evals: 1786573   18
+
+  CLUSTERING 203 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  186    0  -1.00       -14.780      -13.959      -13.055  0.310 [0, 1, 7....01, 202]
+     1   17    6  -1.00       -14.442      -13.656      -13.732  0.645 [6, 2, 3....35, 180]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 99
+ 
+Mutation Rate 0.2042
+
+gen: 178 min: -14.7801271345 pop: 300 dev: 5.8458e-02 seed: 631801  #evals: 1793033  Total Time:    62.81
+ _Gen0178 Score: -14.780 LL:  -0.821 LR: -11.275 RR:  -2.683 evals: 1793033   18
+
+  CLUSTERING 209 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  172    0  -1.00       -14.780      -13.959      -13.165  0.467 [0, 1, 2....07, 208]
+     1   37   17  -1.00       -14.442      -13.656      -13.495  0.624 [17, 11,....05, 206]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 93
+  
+  (  0)      MMI:      -14.780 ->      -14.792*** (   3)
+
+Mutation Rate 0.2054
+
+gen: 179 min: -14.7919376621 pop: 300 dev: 4.0958e-02 seed: 631801  #evals: 1817823  Total Time:    63.50
+ _Gen0179 Score: -14.792 LL:  -0.822 LR: -11.287 RR:  -2.683 evals: 1817823   18
+
+  CLUSTERING 201 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  177    0  -1.00       -14.792      -13.970      -13.090  0.329 [0, 1, 2....99, 200]
+     1   24    5  -1.00       -14.442      -13.656      -13.627  0.535 [5, 4, 6....66, 185]
+   CEDiff 0.011811 maxEDIFF 0.012 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 101
+ 
+Mutation Rate 0.2025
+
+gen: 180 min: -14.7919376621 pop: 300 dev: 5.5839e-02 seed: 631801  #evals: 1824464  Total Time:    63.73
+ _Gen0180 Score: -14.792 LL:  -0.822 LR: -11.287 RR:  -2.683 evals: 1824464   18
+
+  CLUSTERING 199 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  191    0  -1.00       -14.792      -13.970      -13.047  0.300 [0, 1, 2....97, 198]
+     1    8    5  -1.00       -14.442      -13.656      -13.933  0.581 [5, 3, 4.... 31, 63]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 103
+ 
+Mutation Rate 0.2014
+
+gen: 181 min: -14.7919376621 pop: 300 dev: 2.7482e-02 seed: 631801  #evals: 1831012  Total Time:    63.96
+ _Gen0181 Score: -14.792 LL:  -0.822 LR: -11.287 RR:  -2.683 evals: 1831012   18
+
+  CLUSTERING 194 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  180    0  -1.00       -14.792      -13.970      -13.008  0.247 [0, 1, 9....92, 193]
+     1   14    4  -1.00       -14.442      -13.656      -13.759  0.639 [4, 2, 3....33, 134]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 108
+ 
+Mutation Rate 0.2076
+
+gen: 182 min: -14.7919376621 pop: 300 dev: 4.0758e-02 seed: 631801  #evals: 1837360  Total Time:    64.19
+ _Gen0182 Score: -14.792 LL:  -0.822 LR: -11.287 RR:  -2.683 evals: 1837360   18
+
+  CLUSTERING 201 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  186    0  -1.00       -14.792      -13.970      -13.119  0.398 [0, 1, 2....99, 200]
+     1   15   13  -1.00       -14.442      -13.656      -13.904  0.640 [13, 7, ....93, 154]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 101
+  
+  (  0)      MMI:      -14.792 ->      -14.800*** (   3)
+
+Mutation Rate 0.2086
+
+gen: 183 min: -14.8000093699 pop: 300 dev: 3.4147e-02 seed: 631801  #evals: 1861101  Total Time:    64.84
+ _Gen0183 Score: -14.800 LL:  -0.815 LR: -11.302 RR:  -2.683 evals: 1861101   18
+
+  CLUSTERING 211 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  203    0  -1.00       -14.800      -13.985      -13.126  0.410 [0, 1, 2....09, 210]
+     1    8    8  -1.00       -14.442      -13.656      -13.913  0.598 [8, 9, 1.... 64, 70]
+   CEDiff 0.008072 maxEDIFF 0.008 noImprov:   0 CCst:  0.00 CEcut:  2.00
+Population Size 300 Selection Population 91
+ 
+Mutation Rate 0.2060
+
+gen: 184 min: -14.8000093699 pop: 300 dev: 4.5581e-02 seed: 631801  #evals: 1867355  Total Time:    65.07
+ _Gen0184 Score: -14.800 LL:  -0.815 LR: -11.302 RR:  -2.683 evals: 1867355   18
+
+  CLUSTERING 204 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  185    0  -1.00       -14.800      -13.985      -13.205  0.501 [0, 1, 2....02, 203]
+     1   19   19  -1.00       -14.442      -13.656      -14.167  0.416 [19, 15,.... 50, 84]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   1 CCst:  1.00 CEcut:  2.00
+Population Size 300 Selection Population 98
+ 
+Mutation Rate 0.2076
+
+gen: 185 min: -14.8000093699 pop: 300 dev: 3.3290e-02 seed: 631801  #evals: 1873693  Total Time:    65.29
+ _Gen0185 Score: -14.800 LL:  -0.815 LR: -11.302 RR:  -2.683 evals: 1873693   18
+
+  CLUSTERING 201 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  195    0  -1.00       -14.800      -13.985      -13.094  0.334 [0, 1, 2....99, 200]
+     1    6    8  -1.00       -14.442      -13.656      -14.189  0.507 [8, 6, 7, 9, 10, 80]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   2 CCst:  2.00 CEcut:  2.00
+Population Size 300 Selection Population 101
+ 
+Mutation Rate 0.2047
+
+gen: 186 min: -14.8000093699 pop: 300 dev: 3.6251e-02 seed: 631801  #evals: 1880444  Total Time:    65.53
+ _Gen0186 Score: -14.800 LL:  -0.815 LR: -11.302 RR:  -2.683 evals: 1880444   18
+
+  CLUSTERING 222 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  208    0  -1.00       -14.800      -13.985      -13.140  0.409 [0, 1, 2....20, 221]
+     1   14   10  -1.00       -14.442      -13.656      -13.501  0.620 [10, 9, ....95, 196]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   3 CCst:  3.00 CEcut:  2.00
+Population Size 300 Selection Population 80
+ 
+Mutation Rate 0.2010
+
+gen: 187 min: -14.8000093699 pop: 300 dev: 4.1239e-02 seed: 631801  #evals: 1898720  Total Time:    66.05
+ _Gen0187 Score: -14.800 LL:  -0.815 LR: -11.302 RR:  -2.683 evals: 1898720   18
+
+  CLUSTERING 192 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  173    0  -1.00       -14.800      -13.985      -13.134  0.405 [0, 1, 2....90, 191]
+     1   19   13  -1.00       -14.442      -13.656      -13.962  0.571 [13, 7, .... 85, 86]
+   CEDiff 0.000000 maxEDIFF 0.000 noImprov:   4 CCst:  4.00 CEcut:  2.00
+Population Size 300 Selection Population 110
+ 
+Mutation Rate 0.2103
+
+gen: 188 min: -14.8000093699 pop: 300 dev: 3.4865e-02 seed: 631801  #evals: 1905179  Total Time:    66.28
+ _Gen0188 Score: -14.800 LL:  -0.815 LR: -11.302 RR:  -2.683 evals: 1905179   18
+
+  CLUSTERING 210 individual(s) with 2.00
+   CNUM  len best  Rmsd        Score         FEB        <Score>  stdev cluster
+     0  198    0  -1.00       -14.800      -13.985      -13.107  0.364 [0, 1, 2....08, 209]
+     1   12   10  -1.00       -14.442      -13.656      -13.885  0.604 [10, 6, ....77, 174]
+
+gen: 189 min: -14.8000093699 pop: 300 dev: 3.5190e-02 seed: 631801  #evals: 1905179  Total Time:    66.28
+ _Gen0189 Score: -14.800 LL:  -0.815 LR: -11.302 RR:  -2.683 evals: 1905179   18
+evolution stopped with status no improvement in best in 2 clusters for 5 generations after 66.7042448521 seconds
+END bestScore: -14.800 RMSD: -1.00 nbgen: 190 nbEvals  1905179 time 66.704
+{'RRL': -9.216085229915787, 'FRFR': 0.061990613145476506, 'RRFR': -2.7454008457617443, 'wRR': -2.683410232616268, 'LL': -0.814947119507907, 'FRL': -2.0855667878108024}
+GA 4 terminated successfully
