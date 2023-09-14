@@ -1,0 +1,94 @@
+USER: ADFR SOLUTION from run 6
+USER: SCORE 16.312694 LL:  -1.833 LR: -12.189 RR:  -2.290 FEB:  -8.311
+USER: RMSD -1
+USER: STATUS no improvement in best in 2 clusters for 5 generations
+USER: GENES 19
+USER: genes 0 Translation |==|  0.53067 0.61292 0.46579
+USER: genes 1 Rotation |==|  0.21944 0.70228 0.14683 0.42491
+USER: genes 2 Torsion [N2]-C16--C14-[C13] |==|  0.24588
+USER: genes 3 Torsion [C14]-C13--C17-[O5] |==|  0.03842
+USER: genes 4 Torsion [C13]-C17--O5-[P1] |==|  0.31526
+USER: genes 5 Torsion [C17]-O5--P1-[O6] |==|  0.12123
+USER: genes 6 Torsion [C14]-C15--O4-[H23] |==|  0.94410
+USER: genes 7 Torsion [C16]-N2--C8-[C9] |==|  0.70117
+USER: genes 8 Torsion [N2]-C8--C7-[C6] |==|  0.22657
+USER: genes 9 Torsion [C8]-C7--O1-[H17] |==|  0.89336
+USER: genes 10 Torsion [C8]-C7--C6-[C5] |==|  0.37187
+USER: genes 11 Torsion [C7]-C6--C5-[C4] |==|  0.84624
+USER: genes 12 Torsion [C6]-C5--C4-[N1] |==|  0.71755
+USER: genes 13 Torsion [C5]-C4--N1-[C1] |==|  0.58578
+USER: genes 14 Torsion [N2]-C8--C9-[O2] |==|  0.34760
+USER: genes 15 Torsion [N]-CA--CB-[CG] |==|  0.76491
+USER: genes 16 Torsion [CA]-CB--CG-[CD] |==|  0.16873
+USER: genes 17 Torsion [CB]-CG--CD-[CE] |==|  0.43630
+USER: genes 18 Torsion [CG]-CD--CE-[NZ] |==|  0.35778
+ROOT
+ATOM      1  C16 PLP     1      15.931  16.302  41.726  1.00  0.00 LIG 0.13  C 
+ATOM      2 N2   HTL     1      16.210  17.167  42.655  1.00  0.00 LIG-0.28  NA
+ENDROOT
+BRANCH 1 3
+ATOM      3  C14 PLP     1      15.766  16.720  40.314  1.00  0.00 LIG 0.03  A 
+ATOM      4  C13 PLP     1      16.870  16.775  39.450  1.00  0.00 LIG-0.00  A 
+ATOM      5  C12 PLP     1      16.615  17.119  38.126  1.00  0.00 LIG 0.13  A 
+ATOM      6 N3   PLP     1      15.395  17.425  37.621  1.00  0.00 LIG-0.26  NA
+ATOM      7  C11 PLP     1      14.347  17.380  38.482  1.00  0.00 LIG 0.06  A 
+ATOM      8  C10 PLP     1      13.000  17.720  37.920  1.00  0.00 LIG 0.07  C 
+ATOM      9  C15 PLP     1      14.489  17.035  39.824  1.00  0.00 LIG 0.10  A 
+BRANCH 4 10
+ATOM     10  C17 PLP     1      18.295  16.538  39.879  1.00  0.00 LIG 0.22  C 
+BRANCH 10 11
+ATOM     11 O5   PLP     1      18.335  15.953  41.162  1.00  0.00 LIG-0.28  OA
+BRANCH 11 12
+ATOM     12  P1  PLP     1      18.916  14.425  41.147  1.00  0.00 LIG 0.42  P 
+ATOM     13 O6   PLP     1      20.114  14.525  40.213  1.00  0.00 LIG-0.62  OA
+ATOM     14 O7   PLP     1      19.314  14.155  42.590  1.00  0.00 LIG-0.62  OA
+ATOM     15 O8   PLP     1      17.772  13.582  40.622  1.00  0.00 LIG-0.62  OA
+ENDBRANCH 11 12
+ENDBRANCH 10 11
+ENDBRANCH 4 10
+BRANCH 9 16
+ATOM     16 O4   PLP     1      13.367  17.018  40.615  1.00  0.00 LIG-0.36  OA
+ATOM     17 H23  PLP     1      13.583  16.454  41.404  1.00  0.00 LIG 0.22  HD
+ENDBRANCH 9 16
+ENDBRANCH 1 3
+BRANCH 2 18
+ATOM     18  C8  HTL     1      16.211  16.546  44.020  1.00  0.00 LIG 0.24  C 
+BRANCH 18 19
+ATOM     19  C7  HTL     1      17.485  16.904  44.816  1.00  0.00 LIG 0.15  C 
+BRANCH 19 20
+ATOM     20 O1   HTL     1      18.671  16.856  44.006  1.00  0.00 LIG-0.39  OA
+ATOM     21 H17  HTL     1      18.532  16.073  43.412  1.00  0.00 LIG 0.21  HD
+ENDBRANCH 19 20
+BRANCH 19 22
+ATOM     22  C6  HTL     1      17.444  18.287  45.498  1.00  0.00 LIG 0.04  C 
+BRANCH 22 23
+ATOM     23  C5  HTL     1      17.911  18.329  46.958  1.00  0.00 LIG 0.03  C 
+BRANCH 23 24
+ATOM     24  C4  HTL     1      17.159  17.355  47.869  1.00  0.00 LIG 0.24  C 
+BRANCH 24 25
+ATOM     25  N1  HTL     1      16.083  18.055  48.717  1.00  0.00 LIG-0.08  N 
+ATOM     26  C1  HTL     1      15.943  17.295  50.049  1.00  0.00 LIG 0.27  C 
+ATOM     27  C2  HTL     1      14.750  18.193  48.059  1.00  0.00 LIG 0.27  C 
+ATOM     28  C3  HTL     1      16.620  19.450  49.073  1.00  0.00 LIG 0.27  C 
+ENDBRANCH 24 25
+ENDBRANCH 23 24
+ENDBRANCH 22 23
+ENDBRANCH 19 22
+ENDBRANCH 18 19
+BRANCH 18 29
+ATOM     29  C9  HTL     1      14.964  16.995  44.840  1.00  0.00 LIG 0.20  C 
+ATOM     30 O2   HTL     1      14.245  16.057  45.306  1.00  0.00 LIG-0.65  OA
+ATOM     31 O3   HTL     1      14.765  18.247  44.881  1.00  0.00 LIG-0.65  OA
+ENDBRANCH 18 29
+ENDBRANCH 2 18
+ATOM      1  N   LYS A 279      14.866   8.693  41.743  1.00 97.80 REC       N
+ATOM      2  CA  LYS A 279      13.487   8.460  42.204  1.00 97.80 REC       C
+ATOM      3  CB  LYS A 279      12.531   9.576  41.746  1.00 97.80 REC       C
+ATOM      4  CG  LYS A 279      12.505  10.808  42.663  1.00 97.80 REC       C
+ATOM      5  CD  LYS A 279      13.863  11.513  42.788  1.00 97.80 REC       C
+ATOM      6  CE  LYS A 279      13.698  12.972  43.206  1.00 97.80 REC       C
+ATOM      7  NZ  LYS A 279      14.557  13.288  44.369  1.00 97.80 REC       N
+ATOM      8  HZ1 LYS A 279      14.447  14.263  44.649  1.00  0.00 REC       H
+ATOM      9  HZ2 LYS A 279      15.534  13.056  44.191  1.00  0.00 REC       H
+ATOM     10  HZ3 LYS A 279      14.386  12.652  45.148  1.00  0.00 REC       H
+TORSDOF 13
