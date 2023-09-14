@@ -1,0 +1,116 @@
+#################################################################
+# If you used ADFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+#                                                               #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+#                                                               #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Docking on wn23 a Linux-3.10.0-1160.76.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core computer
+Date Wed Sep 13 17:25:43 2023
+reading ligand /hpc/home/marco.malatesta/OSMES/test/OSMES_results_13-09-2023_1/HTL_PLP.pdbqt
+Detected 128 cores, using 128 cores
+Unpacking maps /hpc/home/marco.malatesta/OSMES/test/OSMES_results_13-09-2023_1/Q3UEG6_SWISSMODEL_A.trg
+Performing search (20 GA evolutions with 5000000 maxEvals each) ...
+Termination status
+    0/  20  0.0% runs failed
+    0/  20  0.0% runs exhausted their evaluations
+    0/  20  0.0% runs stopped converged 1 or 2 clusters
+   20/  20 100.0% runs stopped after no improvement in clusters
+    0/  20  0.0% runs stopped because GA ran out of choices
+    0/  20  0.0% runs stopped because GA population converged
+
+Refining results ...
+mode |  affinity  | clust. | ref. | clust. | rmsd | energy | best |
+     | (kcal/mol) | rmsd   | rmsd |  size  | stdv |  stdv  | run  |
+-----+------------+--------+------+--------+------+--------+------+
+   1         -8.9     0.0    -1.0       2     0.5     0.0    002
+   2         -8.5     3.9    -1.0       4     1.0     0.8    005
+   3         -8.5     4.9    -1.0       2     0.9     0.0    009
+   4         -8.4     5.2    -1.0       1      NA      NA    012
+   5         -8.1     5.0    -1.0       2     1.2     0.0    013
+   6         -7.8     5.4    -1.0       1      NA      NA    019
+   7         -7.5     4.5    -1.0       2     0.5     0.0    018
+   8         -7.2     5.4    -1.0       4     1.0     0.1    006
+   9         -6.8     4.6    -1.0       1      NA      NA    001
+  10         -6.6     5.2    -1.0       1      NA      NA    020
+
+
+Clustering information
+
+Clustering cutoff:  3.00
+
+cluster 1
+  runs 2 8
+  energies -8.87 -8.76
+  rmsdbest 0.00 0.99
+  seeds 693153 161372
+
+cluster 2
+  runs 5 14 7 15
+  energies -8.49 -8.30 -7.99 -6.45
+  rmsdbest 0.00 2.04 0.90 2.51
+  seeds 944786 693957 608986 450633
+
+cluster 3
+  runs 9 4
+  energies -8.48 -8.21
+  rmsdbest 0.00 1.86
+  seeds 475547 594427
+
+cluster 4
+  runs 12
+  energies -8.37
+  rmsdbest 0.00
+  seeds 387151
+
+cluster 5
+  runs 13 17
+  energies -8.08 -6.48
+  rmsdbest 0.00 2.31
+  seeds 767266 583262
+
+cluster 6
+  runs 19
+  energies -7.82
+  rmsdbest 0.00
+  seeds 641758
+
+cluster 7
+  runs 18 11
+  energies -7.47 -7.11
+  rmsdbest 0.00 1.06
+  seeds 13139 591007
+
+cluster 8
+  runs 6 3 16 10
+  energies -7.16 -7.16 -7.03 -6.96
+  rmsdbest 0.00 1.48 1.21 2.86
+  seeds 431571 814695 34452 491811
+
+cluster 9
+  runs 1
+  energies -6.79
+  rmsdbest 0.00
+  seeds 188435
+
+cluster 10
+  runs 20
+  energies -6.59
+  rmsdbest 0.00
+  seeds 729961
+Writing poses to HTL_PLP_Q3UEG6_SWISSMODEL_A_out.pdbqt
+
+Docking performed in 127.97 seconds, i.e. 0 hours 02 minutes 07.967591 seconds 
+
+*************** first GA command ***************************
+"/hpc/home/marco.malatesta/OSMES/ADFRsuite-1.0/bin/pythonsh" "/hpc/home/marco.malatesta/OSMES/ADFRsuite-1.0/CCSBpckgs/ADFR/bin/runOneGA.py" -F "/tmp/tmp3NQPwJ/Q3UEG6_SWISSMODEL_A" -M rigidReceptor -R "/tmp/tmp3NQPwJ/Q3UEG6_SWISSMODEL_A/Q3UEG6_SWISSMODEL_A.pdbqt" -X "A:LYS349" -T "/tmp/tmp3NQPwJ/Q3UEG6_SWISSMODEL_A/translationPoints.npy" "-l" "HTL_PLP.pdbqt" "-J" "Q3UEG6_SWISSMODEL_A" "--maxEvals" "5000000" "--clusteringRMSDCutoff" "3" "--popSize" "300" -S 188435 -j 1 -o "HTL_PLP_Q3UEG6_SWISSMODEL_A/Q3UEG6_SWISSMODEL_A0001.dlg"
+
+packaging docking results in to HTL_PLP_Q3UEG6_SWISSMODEL_A.droin  0.15 (s.)
