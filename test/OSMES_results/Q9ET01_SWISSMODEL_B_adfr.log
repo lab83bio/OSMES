@@ -1,0 +1,51 @@
+#################################################################
+# If you used ADFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+#                                                               #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+#                                                               #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Docking on wn23 a Linux-3.10.0-1160.76.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core computer
+Date Wed Sep 13 17:03:17 2023
+reading ligand /hpc/home/marco.malatesta/OSMES/test/OSMES_results_13-09-2023_1/HTL_PLP.pdbqt
+Detected 128 cores, using 128 cores
+Unpacking maps /hpc/home/marco.malatesta/OSMES/test/OSMES_results_13-09-2023_1/Q9ET01_SWISSMODEL_B.trg
+Performing search (20 GA evolutions with 5000000 maxEvals each) ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+Termination status
+    0/  20  0.0% runs failed
+    0/  20  0.0% runs exhausted their evaluations
+    1/  20  5.0% runs stopped converged 1 or 2 clusters
+   19/  20 95.0% runs stopped after no improvement in clusters
+    0/  20  0.0% runs stopped because GA ran out of choices
+    0/  20  0.0% runs stopped because GA population converged
+
+Refining results ...
+done.
+
+mode |  affinity  | clust. | ref. | clust. | rmsd | energy | best |
+     | (kcal/mol) | rmsd   | rmsd |  size  | stdv |  stdv  | run  |
+-----+------------+--------+------+--------+------+--------+------+
+   1         -9.4     0.0    -1.0       6     0.4     0.1    008
+   2         -9.4     5.5    -1.0      11     0.6     0.5    009
+   3         -8.0     6.0    -1.0       1      NA      NA    019
+   4         -7.6     4.4    -1.0       1      NA      NA    002
+   5         -7.6     5.4    -1.0       1      NA      NA    017
+Writing poses to HTL_PLP_Q9ET01_SWISSMODEL_B_out.pdbqt
+
+Docking performed in 87.59 seconds, i.e. 0 hours 01 minutes 27.593185 seconds 
+
+*************** first GA command ***************************
+"/hpc/home/marco.malatesta/OSMES/ADFRsuite-1.0/bin/pythonsh" "/hpc/home/marco.malatesta/OSMES/ADFRsuite-1.0/CCSBpckgs/ADFR/bin/runOneGA.py" -F "/tmp/tmpU4iuEw/Q9ET01_SWISSMODEL_B" -M rigidReceptor -R "/tmp/tmpU4iuEw/Q9ET01_SWISSMODEL_B/Q9ET01_SWISSMODEL_B.pdbqt" -X "B:LYS681" -T "/tmp/tmpU4iuEw/Q9ET01_SWISSMODEL_B/translationPoints.npy" "-l" "HTL_PLP.pdbqt" "-J" "Q9ET01_SWISSMODEL_B" "--maxEvals" "5000000" "--clusteringRMSDCutoff" "3" "--popSize" "300" -S 63985 -j 1 -o "HTL_PLP_Q9ET01_SWISSMODEL_B/Q9ET01_SWISSMODEL_B0001.dlg"
+
+packaging docking results in to HTL_PLP_Q9ET01_SWISSMODEL_B.droin  0.12 (s.)

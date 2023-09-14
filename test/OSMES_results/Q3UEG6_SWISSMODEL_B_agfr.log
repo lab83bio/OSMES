@@ -1,0 +1,58 @@
+#################################################################
+# If you used AGFR in your work, please cite:                   #
+#                                                               #
+# P.A. Ravindranath S. Forli, D.S. Goodsell, A.J. Olson and     #
+# M.F. Sanner                                                   #
+# AutoDockFR: Advances in Protein-Ligand Docking with           #
+# Explicitly Specified Binding Site Flexibility                 #
+# PLoS Comput Biol 11(12): e1004586                             #
+# DOI:10.1371/journal.pcbi.1004586                              #
+#                                                               #
+# P. Ananad Ravindranath and M.F. Sanner                        #
+# AutoSite: an automated approach for pseudoligands prediction  #
+# - From ligand binding sites identification to predicting key  #
+# ligand atoms                                                  #
+# Bioinformatics (2016)                                         #
+# DOI:10.1093/bioinformatics/btw367                             #
+#                                                               #
+# Please see http://adfr.scripps.edu for more information.      #
+#################################################################
+
+Computing grids on wn23 a Linux-3.10.0-1160.76.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core computer
+Date Wed Sep 13 17:21:28 2023
+
+loading receptor: Q3UEG6_SWISSMODEL_B.pdbqt
+set box using user
+    Box center:    48.081    83.240     9.416
+    Box length:    22.100    22.100    22.100
+    Box size  :        60        60        60
+    padding   :     0.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+    found 3 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -394.07   687    7.55     -0.57      0.97      84.75
+        2    -36.09    51    2.02     -0.71      0.87      18.96
+        3    -17.73    22    1.54     -0.81      0.97      13.46
+    merging clusters ...
+done. got 760 fill Points, in 1.15 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(48.081 83.240 9.416) size=(22.100 22.100 22.100) dims=(60 60 60) ...
+    760 points inside the box
+
+    maps computed in 2.55 (sec)
+the following 9 flexible receptor atoms did not contribute to the grid calculation:
+  B:LYS349:CA,CB,CG,CD,CE,NZ,HZ1,HZ2,HZ3,
+Adding gradient to maps ...
+processing maps ... done 5.01127696037
+writing maps ... done 3.14767384529
+done adding gradient to maps 9.06 (sec)
+making target file Q3UEG6_SWISSMODEL_B.trg ...done.
+    done. 13.51 (sec)
+
