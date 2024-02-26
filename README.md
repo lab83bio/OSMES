@@ -1,4 +1,6 @@
 # OSMES
+[![DOI](https://zenodo.org/badge/493578504.svg)](https://zenodo.org/doi/10.5281/zenodo.10709913)
+
 Pipeline in python to perform One Substrate-Many Enzymes Screening (OSMES) of a substrate molecule bound to a PLP cofactor (external aldimine) against a library of PLP-dependent enzyme structures
 <br><br>
 ![OSMES_H](./OSMES_H.png)
